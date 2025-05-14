@@ -179,13 +179,14 @@
   position: relative;
 }
 
+
 .background .container-12 {
   align-items: center;
   align-self: stretch;
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 0px 0.8px;
+  padding: 0px 0px .8px;
   position: relative;
   width: 100%;
 }
@@ -380,7 +381,7 @@
   overflow: hidden;
   padding: 10.61px 15px 11.59px;
   position: absolute;
-  top: 466px;
+  top: 430px;
 }
 
 .background .background-shadow-4 {

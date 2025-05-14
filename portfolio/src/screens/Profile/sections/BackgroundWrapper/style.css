@@ -107,6 +107,7 @@
   display: flex;
   flex: 1;
   flex-grow: 1;
+  outline: none;
   justify-content: center;
   padding: 13px 12px;
   position: relative;
@@ -191,6 +192,7 @@
   height: 100px;
   overflow-y: scroll;
   position: relative;
+  outline: none;
   width: 100%;
 }
 
