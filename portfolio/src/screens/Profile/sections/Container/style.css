@@ -1,0 +1,97 @@
+.container {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.container .nav {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  gap: 20px;
+  height: 64px;
+  position: relative;
+  width: 1244px;
+}
+
+.container .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  padding: 10px 0px 10px 10px;
+  position: relative;
+}
+
+.container .container-wrapper-2 {
+  height: 29px;
+  position: relative;
+  width: 29px;
+}
+
+.container .div-wrapper-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 29px;
+}
+
+.container .div-2 {
+  align-self: stretch;
+  background-image: url(https://c.animaapp.com/EX6GyRHq/img/xodbk01qkbknjfxa0cwww4tkrrs-png@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+}
+
+.container .div-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+}
+
+.container .container-wrapper-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.container .component-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.container .component-1 {
+  flex: 0 0 auto !important;
+}
+
+.container .component-instance {
+  text-decoration: underline !important;
+}
+
+.container .horizontal-divider {
+  background-color: #00000014;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 63px;
+  width: 1244px;
+}

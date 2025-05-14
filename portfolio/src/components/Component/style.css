@@ -1,0 +1,18 @@
+.component {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.component .text {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.component:hover .text {
+  color: #0088ff;
+}

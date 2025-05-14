@@ -1,0 +1,58 @@
+.div-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1920px;
+  padding: 50px;
+  position: relative;
+  width: 1200px;
+}
+
+.div-wrapper .container-20 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 660px;
+  position: relative;
+  width: 660px;
+}
+
+.div-wrapper .heading-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.div-wrapper .let-s-get-to-know {
+  align-self: stretch;
+  color: #111111;
+  font-family: "Inter", Helvetica;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -2.10px;
+  line-height: 60px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.div-wrapper .container-21 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 660px;
+  opacity: 0.5;
+  position: relative;
+  width: 660px;
+}
+
+.div-wrapper .component-1-instance {
+  flex: 0 0 auto !important;
+}

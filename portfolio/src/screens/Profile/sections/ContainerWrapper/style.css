@@ -1,0 +1,151 @@
+.container-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  margin-left: -325.00px;
+  margin-right: -325.00px;
+  position: relative;
+  width: 1920px;
+}
+
+.container-wrapper .container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1920px;
+  padding: 50px 50px 95px;
+  position: relative;
+  width: 766px;
+}
+
+.container-wrapper .heading {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 600px;
+}
+
+.container-wrapper .text-wrapper {
+  color: #111111;
+  font-family: "Inter", Helvetica;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -2.10px;
+  line-height: 60px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.container-wrapper .container-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 660px;
+  position: relative;
+  width: 660px;
+}
+
+.container-wrapper .heading-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.container-wrapper .p {
+  align-self: stretch;
+  color: #888888;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.70px;
+  line-height: 36px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.container-wrapper .heading-margin {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 30px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.container-wrapper .from-programming {
+  align-self: stretch;
+  color: #888888;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.70px;
+  line-height: 36px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.container-wrapper .span {
+  font-weight: 500;
+  letter-spacing: -0.17px;
+}
+
+.container-wrapper .text-wrapper-2 {
+  font-weight: 700;
+  letter-spacing: -0.17px;
+}
+
+.container-wrapper .i-believe-that-the-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 660px;
+}
+
+.container-wrapper .i-believe-that-the {
+  color: #888888;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.70px;
+  line-height: 36px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.container-wrapper .resume-instance {
+  left: 184px !important;
+  position: absolute !important;
+  top: 810px !important;
+}
+
+.container-wrapper .mypic-wrapper {
+  border-radius: 67px;
+  height: 543px;
+  position: relative;
+  width: 362px;
+}
+
+.container-wrapper .mypic {
+  height: 543px;
+  left: -32px;
+  position: absolute;
+  top: -55px;
+  width: 427px;
+}
