@@ -17,48 +17,76 @@ export const Container = () => {
         <div className="div-3">
           <div className="container-wrapper-3">
             <div className="component-wrapper">
-              <Component
-                className="component-1"
-                text="About Me"
-                variant="one"
-              />
+          <Component
+            className="component-1"
+            text="About me"
+            textClassName="component-instance"
+            variant="two"
+            onClick={() => {
+              const el = document.getElementById("About me");
+              if (el) el.scrollIntoView({ behavior: "smooth" });
+            }}
+          />
             </div>
           </div>
 
           <div className="container-wrapper-3">
             <div className="component-wrapper">
-              <Component className="component-1" text="Skills" variant="two" />
+          <Component
+            className="component-1"
+            text="Skills"
+            textClassName="component-instance"
+            variant="two"
+            onClick={() => {
+              const el = document.getElementById("Skills");
+              if (el) el.scrollIntoView({ behavior: "smooth" });
+            }}
+          />
             </div>
           </div>
 
           <div className="container-wrapper-3">
             <div className="component-wrapper">
-              <Component
-                className="component-1"
-                text="Projects"
-                textClassName="component-instance"
-                variant="two"
-              />
+          <Component
+            className="component-1"
+            text="Projects"
+            textClassName="component-instance"
+            variant="two"
+            onClick={() => {
+              const el = document.getElementById("projects");
+              if (el) el.scrollIntoView({ behavior: "smooth" });
+            }}
+          />
             </div>
           </div>
 
           <div className="container-wrapper-3">
             <div className="component-wrapper">
-              <Component
-                className="component-1"
-                text="Education &amp; Certifications"
-                variant="two"
-              />
+          <Component
+            className="component-1"
+            text="Education"
+            textClassName="component-instance"
+            variant="two"
+            onClick={() => {
+              const el = document.getElementById("Education");
+              if (el) el.scrollIntoView({ behavior: "smooth" });
+            }}
+          />
             </div>
           </div>
 
           <div className="container-wrapper-3">
             <div className="component-wrapper">
-              <Component
-                className="component-1"
-                text="Get in Touch"
-                variant="two"
-              />
+          <Component
+            className="component-1"
+            text="Get in touch"
+            textClassName="component-instance"
+            variant="two"
+            onClick={() => {
+              const el = document.getElementById("Get in touch");
+              if (el) el.scrollIntoView({ behavior: "smooth" });
+            }}
+          />
             </div>
           </div>
         </div>

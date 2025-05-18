@@ -41,7 +41,7 @@ export const Profile = () => {
         <div className="background-4">
           <div className="container-27">
             <div className="heading-5">
-              <div className="text-wrapper-15">My Skills</div>
+              <div className="text-wrapper-15" id = "Skills">My Skills</div>
             </div>
           </div>
         </div>

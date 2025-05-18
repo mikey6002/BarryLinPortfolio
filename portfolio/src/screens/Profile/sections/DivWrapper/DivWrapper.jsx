@@ -7,7 +7,7 @@ export const DivWrapper = () => {
     <div className="div-wrapper">
       <div className="container-20">
         <div className="heading-4">
-          <p className="let-s-get-to-know">Let's get to know each other.</p>
+          <p className="let-s-get-to-know" id = "Get in touch">Let's get to know each other.</p>
         </div>
       </div>
 

@@ -1,15 +1,20 @@
 import React from "react";
-import "./style.css";
 
 export const Component = ({
-  text = "About Me",
-  variant,
+  onClick,
   className,
+  text,
   textClassName,
-}) => {
-  return (
-    <div className={`component ${className}`}>
-      <div className={`text ${textClassName}`}>{text}</div>
-    </div>
-  );
-};
+  variant,
+  ...props
+}) => (
+  <div
+    className={className}
+    onClick={onClick}
+    style={{ cursor: onClick ? "pointer" : "default" }}
+    {...props}
+  >
+    <span className={textClassName}>{text}</span>
+    {}
+  </div>
+);

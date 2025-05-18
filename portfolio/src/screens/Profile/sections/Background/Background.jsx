@@ -10,14 +10,17 @@ export const Background = () => {
             <div className="container-5">
               <div className="container-6" />
             </div>
+            
+          
 
             <div className="container-7">
+
               <div className="div-5">
                 <div className="div-5">
                   <div className="text-wrapper-3">Braizen</div>
                 </div>
               </div>
-
+            
               <div className="container-8">
                 <div className="container-9">
                   <p className="text-wrapper-4">
@@ -410,7 +413,7 @@ export const Background = () => {
           </div>
         </div>
 
-        <div className="heading-wrapper">
+        <div className="heading-wrapper" id="projects">
           <div className="div-5">
             <div className="text-wrapper-8">Projects</div>
           </div>
@@ -419,7 +422,7 @@ export const Background = () => {
 
       <div className="container-11">
         <div className="heading-3">
-          <div className="text-wrapper-9">Education and Certifications</div>
+          <div className="text-wrapper-9" id = "Education">Education and Certifications</div>
         </div>
       </div>
 
