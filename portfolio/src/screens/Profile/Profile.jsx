@@ -7,13 +7,31 @@ import { ContainerWrapper } from "./sections/ContainerWrapper";
 import { DivWrapper } from "./sections/DivWrapper";
 import "./style.css";
 
+
+// Importing images
+import githubLogo from "../../assets/github.png";
+import linkedinLogo from "../../assets/linkedin.png";
+import scikitlearnLogo from "../../assets/scikitlearn.png";
+import htmllogo from "../../assets/html.png";
+import Clogo from "../../assets/Clogo.png";
+import auto from "../../assets/autopsy.png";
+import node from "../../assets/node.png";
+import java from "../../assets/java.png";
+import python from "../../assets/python.png";
+import react from "../../assets/ract.png";
+import pandas from "../../assets/pandas.png";
+import figma from "../../assets/figma.png";
+import wireshark from "../../assets/wireshark.png";
+import sql from "../../assets/sql.png";
+import resume from "../../assets/resume.png";
+
 export const Profile = () => {
   return (
     <div className="profile" data-model-id="2:87">
       <div className="background-3">
         <Container />
         <ContainerWrapper />
-        <Element className="one-million-seven-hundred-and-twenty-thousand-and-eighty-nine" />
+        <Element className="Skills section"/>
         <a
           href="https://github.com/mikey6002"
           rel="noopener noreferrer"
@@ -22,7 +40,7 @@ export const Profile = () => {
           <img
             className="github"
             alt="Github"
-            src="https://c.animaapp.com/EX6GyRHq/img/github@2x.png"
+            src={githubLogo}
           />
         </a>
 
@@ -34,7 +52,7 @@ export const Profile = () => {
           <img
             className="linkedin-logo"
             alt="Linkedin logo"
-            src="https://c.animaapp.com/EX6GyRHq/img/linkedin-logo-initials-1@2x.png"
+            src={linkedinLogo}
           />
         </a>
 
@@ -51,7 +69,7 @@ export const Profile = () => {
             <img
               className="scikit-learn-logo"
               alt="Scikit learn logo"
-              src="https://c.animaapp.com/EX6GyRHq/img/scikit-learn-logo-small-svg-1@2x.png"
+              src={scikitlearnLogo}
             />
           </div>
 
@@ -60,73 +78,73 @@ export const Profile = () => {
               <img
                 className="images"
                 alt="Images"
-                src="https://c.animaapp.com/EX6GyRHq/img/images-2-1@2x.png"
+                src={htmllogo}
               />
             </div>
 
             <img
               className="c-logo"
               alt="C logo"
-              src="https://c.animaapp.com/EX6GyRHq/img/c-logo-1@2x.png"
+              src={Clogo}
             />
 
             <div className="overlap-group">
               <img
                 className="images-2"
                 alt="Images"
-                src="https://c.animaapp.com/EX6GyRHq/img/images-1@2x.png"
+                src={auto}
               />
 
               <div className="overlap-group-2">
                 <img
                   className="nodejs-logo"
                   alt="Nodejs logo"
-                  src="https://c.animaapp.com/EX6GyRHq/img/nodejs-1-logo-1@2x.png"
+                  src={node}
                 />
 
                 <img
                   className="element-2"
                   alt="Element"
-                  src="https://c.animaapp.com/EX6GyRHq/img/1720088-1@2x.png"
+                  src={java}
                 />
               </div>
 
               <img
                 className="python-logo-notext"
                 alt="Python logo notext"
-                src="https://c.animaapp.com/EX6GyRHq/img/python-logo-notext-svg-1@2x.png"
+                src={python}
               />
 
               <img
                 className="react-original"
                 alt="React original"
-                src="https://c.animaapp.com/EX6GyRHq/img/react-original-wordmark-icon-1679x2048-hjal07w8-1@2x.png"
+                src={react}
               />
             </div>
 
             <img
               className="element-3"
               alt="Element"
-              src="https://c.animaapp.com/EX6GyRHq/img/-27@2x.png"
+              src={pandas}
             />
           </div>
 
           <img
             className="figma-logo"
             alt="Figma logo"
-            src="https://c.animaapp.com/EX6GyRHq/img/figma-logo-1@2x.png"
+            src={figma}
           />
 
           <img
             className="wireshark"
             alt="Wireshark"
-            src="https://c.animaapp.com/EX6GyRHq/img/wireshark@2x.png"
+            src={wireshark}
           />
 
           <img
             className="mysql-logo-png"
             alt="Mysql logo png"
-            src="https://c.animaapp.com/EX6GyRHq/img/mysql-1-logo-png-transparent-1@2x.png"
+            src={sql}
           />
 
           <div className="layer" />
@@ -143,7 +161,7 @@ export const Profile = () => {
           <img
             className="resume-2"
             alt="Resume"
-            src="https://c.animaapp.com/EX6GyRHq/img/resume@2x.png"
+            src={resume}
           />
         </a>
       </div>

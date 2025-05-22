@@ -1,5 +1,15 @@
 import React from "react";
 import "./style.css";
+// Projects and Education sections
+
+import bash from "../../../../assets/bash.png";
+import CanvasQuest from "../../../../assets/wizard.png";
+import finance from "../../../../assets/finance.png";
+import cityview from "../../../../assets/cityview.png";
+import cyberCert from "../../../../assets/cert.png";
+import degree from "../../../../assets/degree.png";
+import Scrum from "../../../../assets/scrum.png";
+
 
 export const Background = () => {
   return (
@@ -93,7 +103,7 @@ export const Background = () => {
                 <img
                   className="element-ztdltzpjvu"
                   alt="Element"
-                  src="https://c.animaapp.com/EX6GyRHq/img/1-z971tdl3tzpjvu-jtiljaq-1@2x.png"
+                  src={bash}
                 />
               </div>
             </div>
@@ -146,7 +156,7 @@ export const Background = () => {
               <img
                 className="element-efd"
                 alt="Element"
-                src="https://c.animaapp.com/EX6GyRHq/img/395378627-96ef04d5-8bae-4201-9c32-174cab6bf3e4-1@2x.png"
+                src={CanvasQuest}
               />
             </div>
 
@@ -229,7 +239,7 @@ export const Background = () => {
                 <img
                   className="finance"
                   alt="Finance"
-                  src="https://c.animaapp.com/EX6GyRHq/img/finance-1@2x.png"
+                  src={finance}
                 />
               </div>
             </div>
@@ -358,7 +368,7 @@ export const Background = () => {
                 <img
                   className="cvp-logo"
                   alt="Cvp logo"
-                  src="https://c.animaapp.com/EX6GyRHq/img/cvp-logo-300x118-1@2x.png"
+                  src={cityview}
                 />
               </div>
             </div>
@@ -429,19 +439,19 @@ export const Background = () => {
         <img
           className="preview-lg"
           alt="Preview lg"
-          src="https://c.animaapp.com/EX6GyRHq/img/preview-lg-1-1@2x.png"
+          src={cyberCert}
         />
 
         <img
           className="img"
           alt="Preview lg"
-          src="https://c.animaapp.com/EX6GyRHq/img/preview-lg-1@2x.png"
+          src={degree}
         />
 
         <img
           className="screenshot"
           alt="Screenshot"
-          src="https://c.animaapp.com/EX6GyRHq/img/screenshot-2025-05-13-at-2-54-41-pm-1@2x.png"
+          src={Scrum}
         />
       </div>
     </div>

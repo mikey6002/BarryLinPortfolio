@@ -2,6 +2,8 @@ import React from "react";
 import { Resume } from "../../../../components/Resume";
 import "./style.css";
 
+import pic from "../../../../assets/mypic.png";
+
 export const ContainerWrapper = () => {
   return (
     <div className="container-wrapper">
@@ -73,7 +75,7 @@ export const ContainerWrapper = () => {
         <img
           className="mypic"
           alt="Mypic"
-          src="https://c.animaapp.com/EX6GyRHq/img/mypic.png"
+          src={pic}
         />
       </div>
     </div>
