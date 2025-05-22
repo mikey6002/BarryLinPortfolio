@@ -43,7 +43,7 @@
   width: 51px;
 }
 
-.profile .background-4 {
+.profile .SkillsSection{
   background-color: #ffffff;
   height: 240px;
   position: relative;
@@ -83,7 +83,7 @@
   position: relative;
 }
 
-.profile .background-5 {
+.profile .ListSkills {
   background-color: #ffffff;
   height: 288px;
   position: relative;
