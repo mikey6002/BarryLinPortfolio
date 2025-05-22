@@ -1,10 +1,10 @@
 import React from "react";
-import { Element } from "../../components/Element";
+import { Element } from "../../components/YoutubeIcon";
 import { Background } from "./sections/ProjectsAndEducationSec";
 import { BackgroundWrapper } from "./sections/ContactForm";
 import { Container } from "./sections/Navbar";
-import { ContainerWrapper } from "./sections/ContainerWrapper";
-import { DivWrapper } from "./sections/DivWrapper";
+import { ContainerWrapper } from "./sections/AboutMeSec";
+import { DivWrapper } from "./sections/ContactSec";
 import "./style.css";
 
 
