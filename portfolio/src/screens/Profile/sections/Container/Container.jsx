@@ -83,7 +83,7 @@ export const Container = () => {
             textClassName="component-instance"
             variant="two"
             onClick={() => {
-              const el = document.getElementById("Get in touch");
+              const el = document.getElementById("lets get to know");
               if (el) el.scrollIntoView({ behavior: "smooth" });
             }}
           />

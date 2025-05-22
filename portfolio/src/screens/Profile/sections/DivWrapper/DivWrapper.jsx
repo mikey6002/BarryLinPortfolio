@@ -7,17 +7,13 @@ export const DivWrapper = () => {
     <div className="div-wrapper">
       <div className="container-20">
         <div className="heading-4">
-          <p className="let-s-get-to-know" id = "Get in touch">Let's get to know each other.</p>
+          <p className="let-s-get-to-know" id = "lets get to know">Let's get to know each other.</p>
         </div>
       </div>
-
-      <div className="container-21">
+    
+      <div className="container-20">
         <div className="heading-4">
-          <Component
-            className="component-1-instance"
-            text="Get in touch."
-            variant="three"
-          />
+           <p className="let-s-get-to-know" id = "Get in touch">Get in Touch.</p>
         </div>
       </div>
     </div>
