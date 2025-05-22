@@ -31,7 +31,7 @@ export const Profile = () => {
       <div className="background-3">
         <Container />
         <ContainerWrapper />
-        <Element className="Skills section"/>
+        <Element className="youtube"/>
         <a
           href="https://github.com/mikey6002"
           rel="noopener noreferrer"
