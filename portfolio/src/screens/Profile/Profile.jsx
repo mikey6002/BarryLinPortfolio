@@ -1,8 +1,8 @@
 import React from "react";
 import { Element } from "../../components/Element";
-import { Background } from "./sections/Background";
-import { BackgroundWrapper } from "./sections/BackgroundWrapper";
-import { Container } from "./sections/Container";
+import { Background } from "./sections/ProjectsAndEducationSec";
+import { BackgroundWrapper } from "./sections/ContactForm";
+import { Container } from "./sections/Navbar";
 import { ContainerWrapper } from "./sections/ContainerWrapper";
 import { DivWrapper } from "./sections/DivWrapper";
 import "./style.css";

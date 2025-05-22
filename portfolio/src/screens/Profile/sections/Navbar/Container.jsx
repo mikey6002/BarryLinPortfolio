@@ -1,7 +1,7 @@
 import React from "react";
 import { Component } from "../../../../components/Component";
 import "./style.css";
-
+//Navigation Logic
 export const Container = () => {
   return (
     <div className="container">
