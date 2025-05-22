@@ -57,7 +57,7 @@
 }
 
 .background .container-6 {
-  background-image: url(https://c.animaapp.com/EX6GyRHq/img/container@2x.png);
+  background-image: url("src/assets/braizen.png");
   background-position: 50% 50%;
   background-size: cover;
   border-radius: 20px 20px 0px 0px;
@@ -461,7 +461,7 @@
 }
 
 .background .container-16 {
-  background-image: url(https://c.animaapp.com/EX6GyRHq/img/container-1@2x.png);
+  background-image: url("src/assets/crimescene.png");
   background-position: 50% 50%;
   background-size: cover;
   border-radius: 20px 20px 0px 0px;
