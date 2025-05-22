@@ -63,34 +63,24 @@ export const Background = () => {
               >
                 <div className="container-11">
                   <div className="container-12">
-                    <a
-                      className="text-wrapper-6"
-                      href="https://devpost.com/software/braizen"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
+                    <span className="text-wrapper-6">
                       Learn More
-                    </a>
+                    </span>
                   </div>
                 </div>
               </a>
 
               <a
                 className="braizen-live-demo"
-              
+                href="https://www.youtube.com/watch?v=JSGOsNMHmwA"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <div className="container-11">
                   <div className="container-12">
-                    <a
-                      className="text-wrapper-6"
-                      href="https://www.youtube.com/watch?v=JSGOsNMHmwA"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
+                    <span className="text-wrapper-6">
                       Live Demo
-                    </a>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -137,14 +127,9 @@ export const Background = () => {
               >
                 <div className="container-11">
                   <div className="container-12">
-                    <a
-                      className="text-wrapper-6"
-                      href="https://github.com/mikey6002/OperatingSystems_Project2_Shell"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
+                    <span className="text-wrapper-6">
                       Learn More
-                    </a>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -200,33 +185,24 @@ export const Background = () => {
               >
                 <div className="container-11">
                   <div className="container-12">
-                    <a
-                      className="text-wrapper-6"
-                      href="https://capstone-projects-2024-fall.github.io/project-ai-study-rpg-game/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
+                    <span className="text-wrapper-6">
                       Learn More
-                    </a>
+                    </span>
                   </div>
                 </div>
               </a>
 
               <a
                 className="canvas-live-demo"
-
+                href="https://www.youtube.com/watch?v=8Rgt0mLH1pk"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <div className="container-11">
                   <div className="container-12">
-                    <a
-                      className="text-wrapper-6"
-                      href="https://www.youtube.com/watch?v=8Rgt0mLH1pk"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
+                    <span className="text-wrapper-6">
                       Live Demo
-                    </a>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -284,14 +260,9 @@ export const Background = () => {
               >
                 <div className="container-11">
                   <div className="container-12">
-                    <a
-                      className="text-wrapper-6"
-                      href="https://github.com/mikey6002/Personal-Finance-Tracker"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
+                    <span className="text-wrapper-6">
                       Learn More
-                    </a>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -348,14 +319,9 @@ export const Background = () => {
               >
                 <div className="container-11">
                   <div className="container-12">
-                    <a
-                      className="text-wrapper-6"
-                      href="https://github.com/mikey6002/Techwise_AI_ML"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
+                    <span className="text-wrapper-6">
                       Learn More
-                    </a>
+                    </span>
                   </div>
                 </div>
               </a>
@@ -407,14 +373,9 @@ export const Background = () => {
               >
                 <div className="container-11">
                   <div className="container-12">
-                    <a
-                      className="text-wrapper-6"
-                      href="https://www.figma.com/design/7W8SL2JKKzEuoJJEgwR71n/Design-Workshop"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
+                    <span className="text-wrapper-6">
                       Learn More
-                    </a>
+                    </span>
                   </div>
                 </div>
               </a>
