@@ -8,7 +8,7 @@ import finance from "../../../../assets/finance.png";
 import cityview from "../../../../assets/cityview.png";
 import cyberCert from "../../../../assets/cert.png";
 import degree from "../../../../assets/degree.png";
-import Scrum from "../../../../assets/scrum.png";
+import Scrum from "../../../../assets/Scrum.png";
 
 
 export const Background = () => {
