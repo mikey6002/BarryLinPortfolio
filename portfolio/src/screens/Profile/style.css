@@ -1,261 +1,84 @@
 .profile {
-  align-items: flex-start;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
-.profile .background-3 {
-  align-self: stretch;
+.page-wrapper {
   display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 43px;
-  min-height: 1200px;
-  overflow: hidden;
-  position: relative;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.content-container {
   width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
 }
 
-.profile .youtube {
-  left: 260px !important;
-  position: absolute !important;
-  top: 984px !important;
+.social-icons {
+  display: flex;
+  position: relative;
+  gap: 20px;
+  align-items: center;
+  top: -80px;
+  left: 145px
 }
 
-.profile .github {
-  display: block;
-  height: 57px;
-  left: 185px;
-  position: absolute;
-  top: 977px;
-  width: 57px;
+/* base style */
+.social-icon {
+  object-fit: contain;
+  transition: transform 0.2s ease;
 }
-
-.profile .linkedin-logo {
-  display: block;
+.github-icon {
   height: 50px;
-  left: 116px;
-  object-fit: cover;
-  position: absolute;
-  top: 981px;
-  width: 51px;
+  width: 50px;
 }
 
-.profile .SkillsSection{
-  background-color: #ffffff;
-  height: 240px;
-  position: relative;
-  width: 1200px;
+.linkedin-icon {
+  height: 50px;
+  width: 45px;
 }
 
-.profile .container-27 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  left: 509px;
-  max-width: 600px;
-  position: relative;
-  top: 135px;
-  width: 230px;
+.resume-icon {
+  height: 71px;
+  width: 71px;
 }
 
-.profile .heading-5 {
-  align-items: flex-start;
-  align-self: stretch;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
+/* Optional hover effect */
+.social-icon:hover {
+  transform: scale(1.1);
 }
 
-.profile .text-wrapper-15 {
-  align-self: stretch;
-  color: #111111;
-  font-family: "Inter", Helvetica;
+
+/* Skills Section */
+.skills-section {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+
+}
+
+.skills-section h2 {
   font-size: 50px;
   font-weight: 700;
-  letter-spacing: -2.10px;
-  line-height: 60px;
-  margin-top: -1.00px;
-  position: relative;
+  margin-bottom: 30px;
+  color: #111;
+  letter-spacing: -2px;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 50px;
 }
 
-.profile .ListSkills {
-  background-color: #ffffff;
-  height: 288px;
-  position: relative;
-  width: 1109px;
+.skills-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: flex-start;
 }
 
-.profile .scikit-learn-logo-wrapper {
+.skills-logos img {
   height: 80px;
-  left: 34px;
-  position: absolute;
-  top: 132px;
-  width: 149px;
-}
-
-.profile .scikit-learn-logo {
-  height: 80px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 8px;
-  width: 149px;
-}
-
-.profile .overlap {
-  height: 249px;
-  left: 341px;
-  position: absolute;
-  top: 0;
-  width: 740px;
-}
-
-.profile .images-wrapper {
-  height: 110px;
-  left: 0;
-  position: absolute;
-  top: 119px;
-  width: 110px;
-}
-
-.profile .images {
-  height: 110px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 6px;
-  width: 110px;
-}
-
-.profile .c-logo {
-  height: 110px;
-  left: 136px;
-  object-fit: cover;
-  position: absolute;
-  top: 127px;
-  width: 98px;
-}
-
-.profile .overlap-group {
-  height: 249px;
-  left: 14px;
-  position: absolute;
-  top: 0;
-  width: 576px;
-}
-
-.profile .images-2 {
-  height: 64px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 16px;
-  width: 269px;
-}
-
-.profile .overlap-group-2 {
-  height: 246px;
-  left: 226px;
-  position: absolute;
-  top: 0;
-  width: 276px;
-}
-
-.profile .nodejs-logo {
-  height: 118px;
-  left: 82px;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 194px;
-}
-
-.profile .element-2 {
-  height: 135px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 111px;
-  width: 135px;
-}
-
-.profile .python-logo-notext {
-  height: 89px;
-  left: 376px;
-  object-fit: cover;
-  position: absolute;
-  top: 139px;
-  width: 81px;
-}
-
-.profile .react-original {
-  height: 109px;
-  left: 487px;
-  object-fit: cover;
-  position: absolute;
-  top: 140px;
-  width: 89px;
-}
-
-.profile .element-3 {
-  height: 82px;
-  left: 554px;
-  object-fit: cover;
-  position: absolute;
-  top: 23px;
-  width: 186px;
-}
-
-.profile .figma-logo {
-  height: 88px;
-  left: 26px;
-  object-fit: cover;
-  position: absolute;
-  top: 3px;
-  width: 157px;
-}
-
-.profile .wireshark {
-  height: 94px;
-  left: 226px;
-  object-fit: cover;
-  position: absolute;
-  top: -2px;
-  width: 94px;
-}
-
-.profile .mysql-logo-png {
-  height: 111px;
-  left: 974px;
-  object-fit: cover;
-  position: absolute;
-  top: 139px;
-  width: 107px;
-}
-/*
-css logo
-*/
-.profile .layer {
-  background-image: url("../../assets/css.png");
-  background-size: 100% 100%;
-  height: 109px;
-  left: 236px;
-  position: absolute;
-  top: 120px;
-  width: 78px;
-}
-
-.profile .resume-2 {
-  display: block;
-  height: 71px;
-  left: 318px;
-  object-fit: cover;
-  position: absolute;
-  top: 963px;
-  width: 71px;
+  width: auto;
+  object-fit: contain;
 }

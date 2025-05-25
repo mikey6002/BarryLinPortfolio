@@ -41,10 +41,9 @@ export const ContainerWrapper = () => {
                   , I enjoy both the technical <br />
                   and collaborative aspects of software engineering. Whether{" "}
                   <br />
-                  it&#39;s developing machine learning models, optimizing <br />
-                  systems, or debugging complex code, I love the challenge of{" "}
+                  it's developing machine learning models, optimizing <br />
+                  systems, or debugging complex code, I love the challenge of making technology work seamlessly.
                   <br />
-                  making technology work seamlessly.
                 </span>
               </p>
             </div>
