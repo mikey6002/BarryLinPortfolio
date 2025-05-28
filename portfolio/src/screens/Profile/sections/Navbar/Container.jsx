@@ -1,7 +1,22 @@
 import React from "react";
 import { Component } from "../../../../components/Component";
 import "./style.css";
-//Navigation Logic
+
+//scrolling
+const scrollToSection = (id) => {
+  const element = document.getElementById(id);
+  if (element) element.scrollIntoView({ behavior: "smooth" });
+};
+
+const navItems = [
+  { text: "About me", id: "About me" },
+  { text: "Skills", id: "Skills" },
+  { text: "Projects", id: "projects" },
+  { text: "Education", id: "Education" },
+  { text: "Get in touch", id: "lets get to know" },
+  
+];
+
 export const Container = () => {
   return (
     <div className="container">
@@ -15,80 +30,19 @@ export const Container = () => {
         </div>
 
         <div className="div-3">
-          <div className="container-wrapper-3">
-            <div className="component-wrapper">
-          <Component
-            className="component-1"
-            text="About me"
-            textClassName="component-instance"
-            variant="two"
-            onClick={() => {
-              const el = document.getElementById("About me");
-              if (el) el.scrollIntoView({ behavior: "smooth" });
-            }}
-          />
+          {navItems.map(({ text, id }) => (
+            <div className="container-wrapper-3" key={id}>
+              <div className="component-wrapper">
+                <Component
+                  className="component-1"
+                  text={text}
+                  textClassName="component-instance"
+                  variant="two"
+                  onClick={() => scrollToSection(id)}
+                />
+              </div>
             </div>
-          </div>
-
-          <div className="container-wrapper-3">
-            <div className="component-wrapper">
-          <Component
-            className="component-1"
-            text="Skills"
-            textClassName="component-instance"
-            variant="two"
-            onClick={() => {
-              const el = document.getElementById("Skills");
-              if (el) el.scrollIntoView({ behavior: "smooth" });
-            }}
-          />
-            </div>
-          </div>
-
-          <div className="container-wrapper-3">
-            <div className="component-wrapper">
-          <Component
-            className="component-1"
-            text="Projects"
-            textClassName="component-instance"
-            variant="two"
-            onClick={() => {
-              const el = document.getElementById("projects");
-              if (el) el.scrollIntoView({ behavior: "smooth" });
-            }}
-          />
-            </div>
-          </div>
-
-          <div className="container-wrapper-3">
-            <div className="component-wrapper">
-          <Component
-            className="component-1"
-            text="Education"
-            textClassName="component-instance"
-            variant="two"
-            onClick={() => {
-              const el = document.getElementById("Education");
-              if (el) el.scrollIntoView({ behavior: "smooth" });
-            }}
-          />
-            </div>
-          </div>
-
-          <div className="container-wrapper-3">
-            <div className="component-wrapper">
-          <Component
-            className="component-1"
-            text="Get in touch"
-            textClassName="component-instance"
-            variant="two"
-            onClick={() => {
-              const el = document.getElementById("lets get to know");
-              if (el) el.scrollIntoView({ behavior: "smooth" });
-            }}
-          />
-            </div>
-          </div>
+          ))}
         </div>
 
         <div className="horizontal-divider" />

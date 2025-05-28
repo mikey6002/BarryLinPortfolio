@@ -1,104 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800;900&display=swap');
 
+/* ===== Container Styles ===== */
 .container {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
+  display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
   position: relative;
 }
 
+/* ===== Navigation Bar ===== */
 .container .nav {
-  align-items: center;
-  background-color: #ffffff;
   display: flex;
+  align-items: center;
+  background-color: #fff;
   gap: 1px;
   height: 64px;
-  position: relative;
   width: 1244px;
-}
-
-.container .div {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  justify-content: center;
-  padding: 10px 0px 10px 10px;
   position: relative;
 }
 
-.container .container-wrapper-2 {
+/* ===== Left-side Icon Placeholder ===== */
+.container .div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 10px 10px;
+  position: relative;
+}
+
+.container .container-wrapper-2,
+.container .div-wrapper-2 {
+  width: 29px;
   height: 29px;
   position: relative;
-  width: 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container .div-wrapper-2 {
   align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  width: 29px;
 }
 
 .container .div-2 {
-  align-self: stretch;
-  background-image: url();
-  background-position: 50% 50%;
-  background-size: cover;
-  flex: 1;
-  flex-grow: 1;
-  position: relative;
   width: 100%;
+  flex-grow: 1;
+  align-self: stretch;
+  position: relative;
+  background-image: url();
+  background-position: center;
+  background-size: cover;
 }
 
+/* ===== Navigation Links ===== */
 .container .div-3 {
+  display: flex;
   align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 80px;
   justify-content: center;
+  gap: 80px;
   position: relative;
+  flex: 0 0 auto;
 }
 
 .container .container-wrapper-3 {
-  align-items: flex-start;
-  display: inline-flex;
-  flex: 0 0 auto;
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
   position: relative;
+  flex: 0 0 auto;
 }
 
 .container .component-wrapper {
-  align-items: center;
-  align-self: stretch;
   display: flex;
-  flex: 0 0 auto;
   flex-direction: column;
-  position: relative;
+  align-items: center;
   width: 100%;
+  flex: 0 0 auto;
+  position: relative;
 }
 
+/* ===== Component Styling ===== */
 .container .component-1 {
   flex: 0 0 auto !important;
 }
 
 .container .component-instance {
-  font-family: "Open Sans", sans-serif !important;
-  font-optical-sizing: auto;
-  font-weight: 700 !important; 
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 700 !important;
   font-size: 20px !important;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
 }
 
+/* ===== Divider Line ===== */
 .container .horizontal-divider {
-  background-color: #00000014;
+  width: 1350px;
   height: 1px;
-  left: 0;
+  background-color: #00000014;
   position: absolute;
   top: 57px;
-  width: 1350px;
+  left: 0;
 }
