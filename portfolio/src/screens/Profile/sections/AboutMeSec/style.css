@@ -1,103 +1,94 @@
+/* ===== Container Layout ===== */
 .container-wrapper {
-  align-items: center;
   display: flex;
-  flex: 0 0 auto;
-  gap: 10px;
   justify-content: center;
-  margin-left: -325.00px;
-  margin-right: -325.00px;
-  position: relative;
+  align-items: center;
+  gap: 10px;
   width: 1920px;
+  margin: 0 -325px;
+  position: relative;
 }
 
+/* ===== Text + Resume Section ===== */
 .container-wrapper .container-2 {
-  align-items: flex-start;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 20px;
+  width: 766px;
   max-width: 1920px;
   padding: 50px 50px 95px;
   position: relative;
-  width: 766px;
 }
 
+/* ===== Heading ===== */
 .container-wrapper .heading {
-  align-items: flex-start;
   display: flex;
-  flex: 0 0 auto;
   flex-direction: column;
-  position: relative;
   width: 600px;
+  position: relative;
 }
 
 .container-wrapper .text-wrapper {
-  color: #111111;
   font-family: "Inter", Helvetica;
   font-size: 50px;
   font-weight: 700;
-  letter-spacing: -2.10px;
+  color: #111;
   line-height: 60px;
-  margin-top: -1.00px;
-  position: relative;
+  letter-spacing: -2.1px;
   white-space: nowrap;
   width: fit-content;
+  margin-top: -1px;
+  position: relative;
 }
 
+/* ===== Paragraph Containers ===== */
 .container-wrapper .container-3 {
-  align-items: flex-start;
   display: flex;
-  flex: 0 0 auto;
   flex-direction: column;
+  align-items: flex-start;
+  width: 660px;
   max-width: 660px;
   position: relative;
-  width: 660px;
 }
 
 .container-wrapper .heading-2 {
-  align-items: flex-start;
-  align-self: stretch;
   display: flex;
-  flex: 0 0 auto;
   flex-direction: column;
-  position: relative;
+  align-items: flex-start;
   width: 100%;
+  position: relative;
 }
 
-.container-wrapper .p {
-  align-self: stretch;
-  color: #888888;
+.container-wrapper .p,
+.container-wrapper .from-programming {
   font-family: "Inter", Helvetica;
   font-size: 24px;
   font-weight: 500;
-  letter-spacing: -0.70px;
+  color: #888;
   line-height: 36px;
-  margin-top: -1.00px;
-  position: relative;
-}
-
-.container-wrapper .heading-margin {
-  align-items: flex-start;
+  letter-spacing: -0.7px;
+  margin-top: -1px;
   align-self: stretch;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  padding: 30px 0px 0px;
   position: relative;
-  width: 100%;
 }
 
+/* adjust size for alternate paragraphs */
 .container-wrapper .from-programming {
-  align-self: stretch;
-  color: #888888;
-  font-family: "Inter", Helvetica;
-  font-size: 24px;
   font-weight: 400;
-  letter-spacing: -0.70px;
-  line-height: 36px;
-  margin-top: -1.00px;
+}
+
+/* extra spacing between sections */
+.container-wrapper .heading-margin {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
   position: relative;
 }
 
+/* =====  Styling ===== */
 .container-wrapper .span {
   font-weight: 500;
   letter-spacing: -0.17px;
@@ -108,44 +99,46 @@
   letter-spacing: -0.17px;
 }
 
+/* =====  Statement ===== */
 .container-wrapper .i-believe-that-the-wrapper {
-  align-items: flex-start;
   display: flex;
-  flex: 0 0 auto;
   flex-direction: column;
-  position: relative;
+  align-items: flex-start;
   width: 660px;
+  position: relative;
 }
 
 .container-wrapper .i-believe-that-the {
-  color: #888888;
   font-family: "Inter", Helvetica;
   font-size: 24px;
   font-weight: 500;
-  letter-spacing: -0.70px;
+  color: #888;
   line-height: 36px;
-  margin-top: -1.00px;
-  position: relative;
+  letter-spacing: -0.7px;
+  margin-top: -1px;
   width: fit-content;
+  position: relative;
 }
 
+/* ===== Resume Button Positioning ===== */
 .container-wrapper .resume-instance {
-  left: 184px !important;
   position: absolute !important;
   top: 810px !important;
+  left: 184px !important;
 }
 
+/* ===== Image Section ===== */
 .container-wrapper .mypic-wrapper {
-  border-radius: 67px;
-  height: 543px;
-  position: relative;
   width: 362px;
+  height: 543px;
+  border-radius: 67px;
+  position: relative;
 }
 
 .container-wrapper .mypic {
+  width: 427px;
   height: 543px;
-  left: -32px;
   position: absolute;
   top: -55px;
-  width: 427px;
+  left: -32px;
 }

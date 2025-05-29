@@ -1,8 +1,7 @@
 import React from "react";
 import { Resume } from "../../../../components/Resume";
-import "./style.css";
-
 import pic from "../../../../assets/mypic.png";
+import "./style.css";
 
 export const ContainerWrapper = () => {
   return (
@@ -13,56 +12,43 @@ export const ContainerWrapper = () => {
         </div>
 
         <div className="container-3">
-          <div className="heading-2">
-            <p className="p">
-              I’m a software engineer and IT enthusiast who thrives on <br />
-              problem-solving, programming, and building impactful <br />
-              solutions. My journey started with robotics, where I learned{" "}
+          <SectionText className="heading-2">
+            I’m a software engineer and IT enthusiast who thrives on
+            problem-solving, programming, and building impactful solutions.
+            My journey started with robotics, where I learned to design,
+            program, and troubleshoot autonomous systems — an experience
+            that cemented my passion for technology.
+          </SectionText>
+
+          <SectionText className="heading-2">
+            <span className="span">
+              From programming precise motor movements in competitions to
+              leading tech workshops as part of the{" "}
+            </span>
+            <span className="text-wrapper-2">
+              Google Developer Student Club
+            </span>
+            <span className="span">
+              , I enjoy both the technical and collaborative aspects of
+              software engineering. 
               <br />
-              to design, program, and troubleshoot autonomous systems
               <br />
-              —an experience that cemented my passion for technology.
-            </p>
-          </div>
+              Whether it's developing machine
+              learning models, optimizing systems, or debugging complex
+              code, I love the challenge of making technology work
+              seamlessly.
+            </span>
+          </SectionText>
 
-          <div className="heading-margin">
-            <div className="heading-2">
-              <p className="from-programming">
-                <span className="span">
-                  From programming precise motor movements in <br />
-                  competitions to leading tech workshops as part of the <br />
-                </span>
-
-                <span className="text-wrapper-2">
-                  Google Developer Student Club
-                </span>
-
-                <span className="span">
-                  , I enjoy both the technical <br />
-                  and collaborative aspects of software engineering. Whether{" "}
-                  <br />
-                  it's developing machine learning models, optimizing <br />
-                  systems, or debugging complex code, I love the challenge of making technology work seamlessly.
-                  <br />
-                </span>
-              </p>
-            </div>
-          </div>
-
-          <div className="heading-margin">
-            <div className="heading-2">
-              <p className="p">
-                I’m always eager to learn, build, and contribute to innovative{" "}
-                <br />
-                solutions that make a real-world impact.
-              </p>
-            </div>
-          </div>
+          <SectionText className="heading-2">
+            I’m always eager to learn, build, and contribute to innovative
+            solutions that make a real-world impact.
+          </SectionText>
         </div>
 
         <div className="i-believe-that-the-wrapper">
           <p className="i-believe-that-the">
-            I believe that the success of a project is based on good <br />
+            I believe that the success of a project is based on good
             collaboration and being kind.
           </p>
         </div>
@@ -71,12 +57,17 @@ export const ContainerWrapper = () => {
       </div>
 
       <div className="mypic-wrapper">
-        <img
-          className="mypic"
-          alt="Mypic"
-          src={pic}
-        />
+        <img className="mypic" src={pic} alt="Portrait of Barry Lin" />
       </div>
     </div>
   );
 };
+
+//  text block
+const SectionText = ({ children, className }) => (
+  <div className="heading-margin">
+    <div className={className}>
+      <p className="p">{children}</p>
+    </div>
+  </div>
+);
