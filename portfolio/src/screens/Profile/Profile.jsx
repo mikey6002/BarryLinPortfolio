@@ -23,6 +23,8 @@ import figma from "../../assets/figma.png";
 import wireshark from "../../assets/wireshark.png";
 import sql from "../../assets/sql.png";
 import resume from "../../assets/resume.png";
+import css from "../../assets/css.png";
+import js from "../../assets/Js.png";
 
 export const Profile = () => {
   return (
@@ -62,6 +64,8 @@ export const Profile = () => {
               <img src={figma} alt="Figma" />
               <img src={wireshark} alt="Wireshark" />
               <img src={sql} alt="MySQL" />
+              <img src={css} alt="CSS" />
+              <img src={js} alt="JavaScript" />
             </div>
           </div>
 
