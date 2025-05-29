@@ -50,7 +50,7 @@
   width: 660px;
   max-width: 660px;
   position: relative;
-}
+} 
 
 .container-wrapper .heading-2 {
   display: flex;
@@ -141,4 +141,29 @@
   position: absolute;
   top: -55px;
   left: -32px;
+}
+
+/* ===== Animation ===== */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.container-wrapper .container-3, .mypic,.i-believe-that-the,
+.container-wrapper .heading {
+  animation: slideInLeft 3s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+.container-wrapper .heading {
+  animation-delay: 0.5s;
+}
+
+.container-wrapper .container-3 {
+  animation-delay: 0.5s;
 }
