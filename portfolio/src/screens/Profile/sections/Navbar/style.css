@@ -7,8 +7,6 @@
   align-items: center;
   gap: 10px;
   position: relative;
-  width: 100%;
-  margin-bottom: 20px;
 }
 
 /* ===== Navigation Bar ===== */
@@ -104,80 +102,4 @@
   position: absolute;
   top: 57px;
   left: 0;
-}
-
-/* Hamburger Menu Styles */
-.hamburger-menu {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  padding: 10px;
-  gap: 5px;
-}
-
-.hamburger-menu span {
-  width: 25px;
-  height: 3px;
-  background-color: #333;
-  transition: all 0.3s ease;
-}
-
-/* Mobile Responsive Styles */
-@media (max-width: 1280px) {
-  .container .nav {
-    width: 100%;
-    max-width: 100%;
-    padding: 0 20px;
-  }
-
-  .container .horizontal-divider {
-    width: 100%;
-  }
-
-  .container .div-3 {
-    gap: 40px;
-  }
-}
-
-@media (max-width: 768px) {
-  .container .nav {
-    height: auto;
-    min-height: 64px;
-    flex-wrap: wrap;
-    padding: 10px 20px;
-  }
-
-  .hamburger-menu {
-    display: flex;
-  }
-
-  .container .div-3 {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    gap: 20px;
-    padding: 20px 0;
-  }
-
-  .container .div-3.mobile-open {
-    display: flex;
-  }
-
-  .container .component-instance {
-    font-size: 18px !important;
-  }
-
-  .container .horizontal-divider {
-    display: none;
-  }
-}
-
-@media (max-width: 480px) {
-  .container .nav {
-    padding: 10px 15px;
-  }
-
-  .container .component-instance {
-    font-size: 16px !important;
-  }
 }

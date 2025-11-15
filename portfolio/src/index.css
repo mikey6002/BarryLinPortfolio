@@ -66,20 +66,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-/* Mobile Responsive Breakpoints */
-@media (max-width: 768px) {
-  body {
-    min-width: 100%;
-  }
-
-  h1 {
-    font-size: 2em;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.5em;
-  }
-}
