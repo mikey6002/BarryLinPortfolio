@@ -6,11 +6,11 @@
   flex-direction: column;
   gap: 60px;
   justify-content: center;
-  margin-left: -325.00px;
-  margin-right: -325.00px;
+  margin: 0 auto;
   padding: 93px 40px;
   position: relative;
-  width: 1920px;
+  width: 100%;
+  max-width: 1920px;
 }
 
 .background .div-4 {
@@ -646,4 +646,182 @@
   height: 260px;
   position: relative;
   width: 346px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 1280px) {
+  .background {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 60px 20px;
+  }
+
+  .background .div-4 {
+    width: 100%;
+    max-width: 100%;
+    padding: 80px 20px;
+  }
+
+  .background .container-4 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .background .heading-wrapper {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .background .text-wrapper-8 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .background .container-19 {
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .background .preview-lg,
+  .background .img,
+  .background .screenshot {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 968px) {
+  .background {
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  .background .div-4 {
+    padding: 60px 20px;
+  }
+
+  .background .container-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: auto;
+  }
+
+  /* Make all project cards position relative instead of absolute */
+  .background .background-shadow,
+  .background .background-shadow-2,
+  .background .background-shadow-3,
+  .background .background-shadow-4,
+  .background .background-shadow-5,
+  .background .background-shadow-6 {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  /* Adjust button positions to be relative */
+  .background .braizen-live-demo,
+  .background .canvas-live-demo {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-top: 10px;
+  }
+
+  .background .text-wrapper-9 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .background .container-19 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .background {
+    padding: 30px 15px;
+  }
+
+  .background .div-4 {
+    padding: 40px 15px;
+  }
+
+  .background .text-wrapper-8,
+  .background .text-wrapper-9 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .background .background-shadow,
+  .background .background-shadow-2,
+  .background .background-shadow-3,
+  .background .background-shadow-4,
+  .background .background-shadow-5,
+  .background .background-shadow-6 {
+    max-width: 100%;
+  }
+
+  .background .container-5,
+  .background .container-7,
+  .background .container-13,
+  .background .container-14,
+  .background .container-15,
+  .background .container-18,
+  .background .element-wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .background {
+    padding: 20px 10px;
+    gap: 30px;
+  }
+
+  .background .div-4 {
+    padding: 30px 10px;
+  }
+
+  .background .text-wrapper-8,
+  .background .text-wrapper-9 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .background .text-wrapper-3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .background .text-wrapper-4,
+  .background .text-wrapper-5,
+  .background .text-wrapper-7 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .background .container-19 {
+    gap: 15px;
+  }
+
+  .background .preview-lg,
+  .background .img,
+  .background .screenshot {
+    max-width: 100%;
+  }
 }
