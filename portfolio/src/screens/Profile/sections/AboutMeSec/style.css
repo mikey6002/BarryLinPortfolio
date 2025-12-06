@@ -43,7 +43,7 @@
 }
 
 /* ===== Paragraph Containers ===== */
-.container-wrapper .container-3 {
+.container-wrapper .About_me_Section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -52,7 +52,7 @@
   position: relative;
 } 
 
-.container-wrapper .heading-2 {
+.container-wrapper .About_Headings {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -100,7 +100,7 @@
 }
 
 /* =====  Statement ===== */
-.container-wrapper .i-believe-that-the-wrapper {
+.container-wrapper .statement_wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -108,7 +108,7 @@
   position: relative;
 }
 
-.container-wrapper .i-believe-that-the {
+.container-wrapper .about-values-class {
   font-family: "Inter", Helvetica;
   font-size: 24px;
   font-weight: 500;
@@ -155,7 +155,7 @@
   }
 }
 
-.container-wrapper .container-3, .mypic,.i-believe-that-the,
+.container-wrapper .About_me_Section, .mypic,.about-values-class,
 .container-wrapper .heading {
   animation: slideInLeft 3s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
@@ -164,7 +164,7 @@
   animation-delay: 0.5s;
 }
 
-.container-wrapper .container-3 {
+.container-wrapper .About_me_Section {
   animation-delay: 0.5s;
 }
 
@@ -189,8 +189,8 @@
     max-width: 600px;
   }
 
-  .container-wrapper .container-3,
-  .container-wrapper .i-believe-that-the-wrapper {
+  .container-wrapper .About_me_Section,
+  .container-wrapper .statement_wrapper {
     width: 100%;
     max-width: 660px;
   }
@@ -210,7 +210,7 @@
 
   .container-wrapper .p,
   .container-wrapper .from-programming,
-  .container-wrapper .i-believe-that-the {
+  .container-wrapper .about-values-class {
     font-size: 20px;
     line-height: 30px;
   }
@@ -235,7 +235,7 @@
 
   .container-wrapper .p,
   .container-wrapper .from-programming,
-  .container-wrapper .i-believe-that-the {
+  .container-wrapper .about-values-class {
     font-size: 18px;
     line-height: 28px;
   }
@@ -268,7 +268,7 @@
 
   .container-wrapper .p,
   .container-wrapper .from-programming,
-  .container-wrapper .i-believe-that-the {
+  .container-wrapper .about-values-class {
     font-size: 16px;
     line-height: 24px;
   }
