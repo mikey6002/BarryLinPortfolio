@@ -278,3 +278,84 @@
   white-space: nowrap;
   width: fit-content;
 }
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 1280px) {
+  .background-wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .background-wrapper .background-2 {
+    padding: 80px 20px;
+  }
+
+  .background-wrapper .form {
+    width: 100%;
+    max-width: 630px;
+    padding: 19px 15px;
+  }
+
+  .background-wrapper .border {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .background-wrapper .background-2 {
+    padding: 60px 15px;
+  }
+
+  .background-wrapper .text-wrapper-10 {
+    font-size: 36px;
+    line-height: 44px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .background-wrapper .form {
+    width: 100%;
+    padding: 15px 10px;
+    gap: 35px;
+  }
+
+  .background-wrapper .label,
+  .background-wrapper .label-2 {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .background-wrapper .background-2 {
+    padding: 40px 10px;
+  }
+
+  .background-wrapper .text-wrapper-10 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .background-wrapper .form {
+    gap: 30px;
+  }
+
+  .background-wrapper .text-wrapper-11 {
+    font-size: 11px;
+  }
+
+  .background-wrapper .input,
+  .background-wrapper .container-24 {
+    font-size: 13px;
+    padding: 11px 10px;
+  }
+
+  .background-wrapper .overlay {
+    height: 38px;
+  }
+
+  .background-wrapper .border {
+    height: 38px;
+  }
+}
