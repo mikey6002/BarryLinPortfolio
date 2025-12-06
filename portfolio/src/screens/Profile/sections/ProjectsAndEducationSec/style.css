@@ -648,8 +648,7 @@
   width: 346px;
 }
 
-
-/* Mobile  */
+/* Mobile Responsive Styles */
 @media (max-width: 1280px) {
   .background {
     width: 100%;
@@ -662,4 +661,81 @@
     max-width: 100%;
     padding: 80px 20px;
   }
+    .background .container-4 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+    .background .heading-wrapper {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+    .background .text-wrapper-8 {
+    font-size: 40px;
+    line-height: 48px;
+    position: relative;
+    top: -4950px;
+  }
+
+  .background .container-19 {
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .background .preview-lg,
+  .background .img,
+  .background .screenshot {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .background .div-4 {
+    padding: 60px 20px;
+  }
+
+  .background .container-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: auto;
+  }
+ /* Make all project cards position relative instead of absolute */
+  .background .background-shadow,
+  .background .background-shadow-2,
+  .background .background-shadow-3,
+  .text-wrapper-8,
+  .background .background-shadow-4,
+  .background .background-shadow-5,
+  .background .background-shadow-6 {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 400px;
+  }
+    /* Adjust button positions to be relative */
+  .background .braizen-live-demo,
+  .background .canvas-live-demo {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-top: 10px;
+  }
+    .background .text-wrapper-9 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+    .background .container-19 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
 }
