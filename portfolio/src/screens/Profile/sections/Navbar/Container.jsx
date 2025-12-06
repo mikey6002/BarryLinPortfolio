@@ -29,9 +29,9 @@ export const Container = () => {
     <div className="container">
       <div className="nav">
         <div className="div">
-          <div className="container-wrapper-2">
-            <div className="div-wrapper-2">
-              <div className="div-2" />
+          <div className="spacing-container">
+            <div className="navbar-wrapper">
+              <div className="nav-logo" />
             </div>
           </div>
         </div>

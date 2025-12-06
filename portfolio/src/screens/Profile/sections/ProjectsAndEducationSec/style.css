@@ -68,7 +68,7 @@
   width: 347px;
 }
 
-.background .container-7 {
+.background .Crime-project-container {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -80,7 +80,7 @@
   width: 320px;
 }
 
-.background .div-5 {
+.background .project-block {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -90,7 +90,7 @@
   width: 100%;
 }
 
-.background .text-wrapper-3 {
+.background .project-title {
   align-self: stretch;
   color: #333333;
   font-family: "Inter", Helvetica;
@@ -102,14 +102,14 @@
   position: relative;
 }
 
-.background .container-8 {
+.background .project-details {
   align-self: stretch;
   height: 332.72px;
   position: relative;
   width: 100%;
 }
 
-.background .container-9 {
+.background .project-subtitle {
   align-items: flex-start;
   display: flex;
   flex-direction: column;

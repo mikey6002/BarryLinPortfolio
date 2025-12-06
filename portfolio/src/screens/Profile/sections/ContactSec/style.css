@@ -10,7 +10,7 @@
   width: 1200px;
 }
 
-.div-wrapper .container-20 {
+.div-wrapper .contact-section {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -20,7 +20,7 @@
   width: 660px;
 }
 
-.div-wrapper .heading-4 {
+.div-wrapper .contacts-heading {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -65,7 +65,7 @@
     padding: 40px 20px;
   }
 
-  .div-wrapper .container-20,
+  .div-wrapper .contact-section,
   .div-wrapper .container-21 {
     width: 100%;
     max-width: 660px;

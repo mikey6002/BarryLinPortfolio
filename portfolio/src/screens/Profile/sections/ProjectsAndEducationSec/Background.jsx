@@ -23,16 +23,16 @@ export const Background = () => {
             
           
 
-            <div className="container-7">
+            <div className="Crime-project-container">
 
-              <div className="div-5">
-                <div className="div-5">
-                  <div className="text-wrapper-3">Braizen</div>
+              <div className="project-block">
+                <div className="project-block">
+                  <div className="project-title">Braizen</div>
                 </div>
               </div>
             
-              <div className="container-8">
-                <div className="container-9">
+              <div className="project-details">
+                <div className="project-subtitle">
                   <p className="text-wrapper-4">
                     Built with Streamlit and Python
                   </p>
@@ -99,9 +99,9 @@ export const Background = () => {
             </div>
 
             <div className="container-13">
-              <div className="div-5">
-                <div className="div-5">
-                  <div className="text-wrapper-3">Mock PowerShell</div>
+              <div className="project-block">
+                <div className="project-block">
+                  <div className="project-title">Mock PowerShell</div>
                 </div>
               </div>
 
@@ -146,9 +146,9 @@ export const Background = () => {
             </div>
 
             <div className="container-14">
-              <div className="div-5">
-                <div className="div-5">
-                  <div className="text-wrapper-3">Canvas Quest</div>
+              <div className="project-block">
+                <div className="project-block">
+                  <div className="project-title">Canvas Quest</div>
                 </div>
               </div>
 
@@ -221,17 +221,17 @@ export const Background = () => {
             </div>
 
             <div className="container-15">
-              <div className="div-5">
-                <div className="div-5">
-                  <div className="text-wrapper-3">
+              <div className="project-block">
+                <div className="project-block">
+                  <div className="project-title">
                     Personal Finance <br />
                     Tracker
                   </div>
                 </div>
               </div>
 
-              <div className="container-8">
-                <div className="container-9">
+              <div className="project-details">
+                <div className="project-subtitle">
                   <p className="text-wrapper-4">Built with Python and KivyMd</p>
                 </div>
 
@@ -274,10 +274,10 @@ export const Background = () => {
               <div className="container-16" />
             </div>
 
-            <div className="container-7">
-              <div className="div-5">
-                <div className="div-5">
-                  <p className="text-wrapper-3">
+            <div className="Crime-project-container">
+              <div className="project-block">
+                <div className="project-block">
+                  <p className="project-title">
                     Los Angeles&nbsp;&nbsp;Crime <br />
                     Analysis Using <br />
                     Machine Learning
@@ -340,9 +340,9 @@ export const Background = () => {
             </div>
 
             <div className="container-18">
-              <div className="div-5">
-                <div className="div-5">
-                  <div className="text-wrapper-3">
+              <div className="project-block">
+                <div className="project-block">
+                  <div className="project-title">
                     City View Pizza <br />
                     Prototype
                   </div>
@@ -383,8 +383,8 @@ export const Background = () => {
           </div>
         </div>
 
-        <div className="heading-wrapper" id="projects">
-          <div className="div-5">
+        <div className="project-block" id="projects">
+          <div className="project-block">
             <div className="text-wrapper-8">Projects</div>
           </div>
         </div>

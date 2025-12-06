@@ -31,8 +31,8 @@
   position: relative;
 }
 
-.container .container-wrapper-2,
-.container .div-wrapper-2 {
+.container .spacing-container,
+.container .navbar-wrapper {
   width: 29px;
   height: 29px;
   position: relative;
@@ -41,11 +41,11 @@
   justify-content: center;
 }
 
-.container .div-wrapper-2 {
+.container .navbar-wrapper {
   align-items: flex-start;
 }
 
-.container .div-2 {
+.container .nav-logo {
   width: 100%;
   flex-grow: 1;
   align-self: stretch;
