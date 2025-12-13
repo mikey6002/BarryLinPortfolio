@@ -14,14 +14,13 @@ import Scrum from "../../../../assets/Scrum.png";
 export const Background = () => {
   return (
     <div className="background">
+      <div className="text-wrapper-8">Projects</div>
       <div className="div-4">
         <div className="container-4">
           <div className="background-shadow">
             <div className="container-5">
               <div className="container-6" />
             </div>
-            
-          
 
             <div className="Crime-project-container">
 
@@ -33,12 +32,12 @@ export const Background = () => {
             
               <div className="project-details">
                 <div className="project-subtitle">
-                  <p className="text-wrapper-4">
+                  <p className="project-tech-desc">
                     Built with Streamlit and Python
                   </p>
                 </div>
 
-                <div className="container-10">
+                <div className="project-tech-desc">
                   <p className="text-wrapper-5">
                     A web application designed to <br />
                     assist in the early detection of <br />
@@ -56,13 +55,13 @@ export const Background = () => {
               </div>
 
               <a
-                className="container-wrapper-4"
+                className="braizen-details"
                 href="https://devpost.com/software/braizen"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <div className="container-11">
-                  <div className="container-12">
+                <div className="project">
+                  <div className="project-text-wrapper">
                     <span className="text-wrapper-6">
                       Learn More
                     </span>
@@ -76,8 +75,8 @@ export const Background = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <div className="container-11">
-                  <div className="container-12">
+                <div className="project-button-wrapper">
+                  <div className="project-text-wrapper">
                     <span className="text-wrapper-6">
                       Live Demo
                     </span>
@@ -87,7 +86,7 @@ export const Background = () => {
             </div>
           </div>
 
-          <div className="background-shadow-2">
+          <div className="project-card">
             <div className="container-5">
               <div className="element-wrapper">
                 <img
@@ -98,15 +97,15 @@ export const Background = () => {
               </div>
             </div>
 
-            <div className="container-13">
+            <div className="power-shell-wrapper">
               <div className="project-block">
                 <div className="project-block">
                   <div className="project-title">Mock PowerShell</div>
                 </div>
               </div>
 
-              <div className="div-5">
-                <div className="div-5">
+              <div className="project-description">
+                <div className="project-description">
                   <p className="text-wrapper-7">
                     Developed a Unix-like shell in C, <br />
                     emulating functionalities of <br />
@@ -125,8 +124,8 @@ export const Background = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <div className="container-11">
-                  <div className="container-12">
+                <div className="project-button-wrapper">
+                  <div className="project-text-wrapper">
                     <span className="text-wrapper-6">
                       Learn More
                     </span>
@@ -152,7 +151,7 @@ export const Background = () => {
                 </div>
               </div>
 
-              <div className="div-5">
+              <div className="project-description">
                 <div className="developed-using-wrapper">
                   <p className="text-wrapper-7">
                     Developed using JavaScript, <br />
@@ -183,8 +182,8 @@ export const Background = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <div className="container-11">
-                  <div className="container-12">
+                <div className="project-button-wrapper">
+                  <div className="project-text-wrapper">
                     <span className="text-wrapper-6">
                       Learn More
                     </span>
@@ -198,8 +197,8 @@ export const Background = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <div className="container-11">
-                  <div className="container-12">
+                <div className="project-button-wrapper">
+                  <div className="project-text-wrapper">
                     <span className="text-wrapper-6">
                       Live Demo
                     </span>
@@ -232,10 +231,10 @@ export const Background = () => {
 
               <div className="project-details">
                 <div className="project-subtitle">
-                  <p className="text-wrapper-4">Built with Python and KivyMd</p>
+                  <p className="project-tech-desc">Built with Python and KivyMd</p>
                 </div>
 
-                <div className="container-10">
+                <div className="project-tech-desc">
                   <p className="designed-to-help">
                     Designed to help users manage <br />
                     their finance effectively by having <br />a snapshot of
@@ -253,13 +252,13 @@ export const Background = () => {
               </div>
 
               <a
-                className="container-wrapper-4"
+                className="braizen-details"
                 href="https://github.com/mikey6002/Personal-Finance-Tracker"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <div className="container-11">
-                  <div className="container-12">
+                <div className="project-button-wrapper">
+                  <div className="project-text-wrapper">
                     <span className="text-wrapper-6">
                       Learn More
                     </span>
@@ -312,13 +311,13 @@ export const Background = () => {
               </div>
 
               <a
-                className="container-wrapper-4"
+                className="braizen-details"
                 href="https://github.com/mikey6002/Techwise_AI_ML"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <div className="container-11">
-                  <div className="container-12">
+                <div className="project-button-wrapper">
+                  <div className="project-text-wrapper">
                     <span className="text-wrapper-6">
                       Learn More
                     </span>
@@ -349,8 +348,8 @@ export const Background = () => {
                 </div>
               </div>
 
-              <div className="div-5">
-                <div className="div-5">
+              <div className="project-description">
+                <div className="project-description">
                   <p className="text-wrapper-7">
                     Figma prototype to reimagine the <br />
                     digital experience for City View <br />
@@ -371,8 +370,8 @@ export const Background = () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <div className="container-11">
-                  <div className="container-12">
+                <div className="project-button-wrapper">
+                  <div className="project-text-wrapper">
                     <span className="text-wrapper-6">
                       Learn More
                     </span>
@@ -385,12 +384,11 @@ export const Background = () => {
 
         <div className="project-block" id="projects">
           <div className="project-block">
-            <div className="text-wrapper-8">Projects</div>
           </div>
         </div>
       </div>
 
-      <div className="container-11">
+      <div className="project-button-wrapper">
         <div className="heading-3">
           <div className="text-wrapper-9" id = "Education">Education and Certifications</div>
         </div>

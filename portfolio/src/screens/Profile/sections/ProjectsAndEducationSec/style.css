@@ -120,7 +120,7 @@
   width: 260px;
 }
 
-.background .text-wrapper-4 {
+.background .project-tech-desc {
   color: #666666;
   font-family: "Inter", Helvetica;
   font-size: 16px;
@@ -133,7 +133,7 @@
   width: fit-content;
 }
 
-.background .container-10 {
+.background .project-tech-desc {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -157,7 +157,7 @@
   width: fit-content;
 }
 
-.background .container-wrapper-4 {
+.background .braizen-details {
   align-items: center;
   background-color: #222222;
   border-radius: 8px;
@@ -171,7 +171,7 @@
   position: relative;
 }
 
-.background .container-11 {
+.background .project-button-wrapper {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -180,7 +180,7 @@
 }
 
 
-.background .container-12 {
+.background .project-text-wrapper {
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -221,7 +221,7 @@
   top: 437px;
 }
 
-.background .background-shadow-2 {
+.background .project-card {
   align-items: center;
   background-color: #ffffff;
   border-radius: 20px;
@@ -256,7 +256,7 @@
   width: 320px;
 }
 
-.background .container-13 {
+.background .power-shell-wrapper {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -570,27 +570,35 @@
   position: relative;
 }
 
+
 .background .heading-wrapper {
-  align-items: flex-start;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  left: 500px;
-  max-width: 600px;
   position: absolute;
   top: 18px;
-  width: 197px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  max-width: 600px;
+  padding: 0 10px; 
 }
 
 .background .text-wrapper-8 {
-  align-self: stretch;
   color: #111111;
   font-family: "Inter", Helvetica;
   font-size: 50px;
   font-weight: 700;
   letter-spacing: -2.10px;
   line-height: 60px;
-  margin-top: -1.00px;
+  margin: 0;
   position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  white-space: nowrap;
 }
 
 .background .heading-3 {
@@ -679,7 +687,6 @@
     font-size: 40px;
     line-height: 48px;
     position: relative;
-    top: -4950px;
   }
 
   .background .container-19 {
@@ -707,11 +714,10 @@
     gap: 30px;
     height: auto;
   }
- /* Make all project cards position relative instead of absolute */
+ /* Make all project cards position relative */
   .background .background-shadow,
-  .background .background-shadow-2,
+  .background .project-card,
   .background .background-shadow-3,
-  .text-wrapper-8,
   .background .background-shadow-4,
   .background .background-shadow-5,
   .background .background-shadow-6 {
