@@ -99,7 +99,7 @@ export const BackgroundWrapper = () => {
             </div>
             <div className="overlay">
               <input
-                className="input container-24"
+                className="input form-control"
                 id="fullName"
                 name="fullName"
                 type="text"
@@ -124,7 +124,7 @@ export const BackgroundWrapper = () => {
             </div>
             <div className="overlay">
               <input
-                className="input container-24"
+                className="input form-control"
                 id="email"
                 name="email"
                 type="email"
@@ -149,7 +149,7 @@ export const BackgroundWrapper = () => {
             </div>
             <div className="textarea-wrapper">
               <textarea
-                className="textarea container-24"
+                className="textarea form-control"
                 id="message"
                 name="message"
                 placeholder="Your message..."
@@ -163,7 +163,7 @@ export const BackgroundWrapper = () => {
           <div className="button-wrapper">
             <button className="button" type="submit">
               <div className="contacts-heading">
-                <div className="container-26">
+                <div className="button-content">
                   <div className="text-wrapper-14">Submit</div>
                 </div>
               </div>

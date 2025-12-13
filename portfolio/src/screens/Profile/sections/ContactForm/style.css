@@ -114,7 +114,7 @@
   width: 100%;
 }
 
-.background-wrapper .container-23 {
+.background-wrapper .form-row {
   align-items: flex-start;
   display: flex;
   flex: 1;
@@ -157,7 +157,7 @@
   width: 100%;
 }
 
-.background-wrapper .container-24 {
+.background-wrapper .form-control {
   align-self: stretch;
   background: none;
   border: none;
@@ -201,7 +201,7 @@
   width: 0;
 }
 
-.background-wrapper .container-25 {
+.background-wrapper .input-helper {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
@@ -255,7 +255,7 @@
   width: 100%;
 }
 
-.background-wrapper .container-26 {
+.background-wrapper .button-content {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -346,7 +346,7 @@
   }
 
   .background-wrapper .input,
-  .background-wrapper .container-24 {
+  .background-wrapper .form-control {
     font-size: 13px;
     padding: 11px 10px;
   }

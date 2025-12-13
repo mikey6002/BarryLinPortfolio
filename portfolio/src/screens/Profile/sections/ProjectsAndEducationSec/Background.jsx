@@ -14,15 +14,17 @@ import Scrum from "../../../../assets/Scrum.png";
 export const Background = () => {
   return (
     <div className="background">
-      <div className="text-wrapper-8">Projects</div>
-      <div className="div-4">
-        <div className="container-4">
-          <div className="background-shadow">
-            <div className="container-5">
-              <div className="container-6" />
+      <div className="heading-wrapper">
+        <div className="projects-title">Projects</div>
+      </div>
+      <div className="projects-grid">
+        <div className="projects-list">
+          <div className="project-card project-card--braizen">
+            <div className="project-media">
+              <div className="project-image" />
             </div>
 
-            <div className="Crime-project-container">
+            <div className="project-content">
 
               <div className="project-block">
                 <div className="project-block">
@@ -87,8 +89,8 @@ export const Background = () => {
             </div>
           </div>
 
-          <div className="project-card">
-            <div className="container-5">
+          <div className="project-card project-card--powershell">
+            <div className="project-media">
               <div className="element-wrapper">
                 <img
                   className="element-ztdltzpjvu"
@@ -136,8 +138,8 @@ export const Background = () => {
             </div>
           </div>
 
-          <div className="background-shadow-3">
-            <div className="container-5">
+          <div className="project-card project-card--canvas">
+            <div className="project-media">
               <img
                 className="element-efd"
                 alt="Element"
@@ -145,7 +147,7 @@ export const Background = () => {
               />
             </div>
 
-            <div className="container-14">
+            <div className="project-content">
               <div className="project-block">
                 <div className="project-block">
                   <div className="project-title">Canvas Quest</div>
@@ -209,8 +211,8 @@ export const Background = () => {
             </div>
           </div>
 
-          <div className="background-shadow-4">
-            <div className="container-5">
+          <div className="project-card project-card--finance">
+            <div className="project-media">
               <div className="finance-wrapper">
                 <img
                   className="finance"
@@ -220,7 +222,7 @@ export const Background = () => {
               </div>
             </div>
 
-            <div className="container-15">
+            <div className="project-content">
               <div className="project-block">
                 <div className="project-block">
                   <div className="project-title">Personal Finance Tracker</div>
@@ -269,12 +271,12 @@ export const Background = () => {
             </div>
           </div>
 
-          <div className="background-shadow-5">
-            <div className="container-5">
-              <div className="container-16" />
+          <div className="project-card project-card--crime">
+            <div className="project-media">
+              <div className="project-image" />
             </div>
 
-            <div className="Crime-project-container">
+            <div className="project-content">
               <div className="project-block">
                 <div className="project-block">
                   <div className="project-title">Los Angeles Crime <br />Prediction</div>
@@ -324,8 +326,8 @@ export const Background = () => {
             </div>
           </div>
 
-          <div className="background-shadow-6">
-            <div className="container-5">
+          <div className="project-card project-card--cityview">
+            <div className="project-media">
               <div className="cvp-logo-wrapper">
                 <img
                   className="cvp-logo"
@@ -335,7 +337,7 @@ export const Background = () => {
               </div>
             </div>
 
-            <div className="container-18">
+            <div className="project-content">
               <div className="project-block">
                 <div className="project-block">
                   <div className="project-title">
@@ -390,7 +392,7 @@ export const Background = () => {
         </div>
       </div>
 
-      <div className="container-19">
+      <div className="education-list">
         <img
           className="preview-lg"
           alt="Preview lg"

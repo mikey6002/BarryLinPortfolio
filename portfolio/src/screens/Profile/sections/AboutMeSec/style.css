@@ -10,7 +10,7 @@
 }
 
 /* ===== Text + Resume Section ===== */
-.container-wrapper .container-2 {
+.container-wrapper .about-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -178,7 +178,7 @@
     padding: 20px;
   }
 
-  .container-wrapper .container-2 {
+  .container-wrapper .about-content {
     width: 100%;
     max-width: 100%;
     padding: 30px 20px;
@@ -240,7 +240,7 @@
     line-height: 28px;
   }
 
-  .container-wrapper .container-2 {
+  .container-wrapper .about-content {
     gap: 15px;
     padding: 20px 15px;
   }

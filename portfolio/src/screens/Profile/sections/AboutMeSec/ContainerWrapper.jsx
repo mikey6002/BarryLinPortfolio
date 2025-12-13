@@ -6,7 +6,7 @@ import "./style.css";
 export const ContainerWrapper = () => {
   return (
     <div className="container-wrapper">
-      <div className="container-2">
+      <div className="about-content">
         <div className="heading">
           <p className="text-wrapper">Hi, my name is Barry Lin</p>
         </div>
