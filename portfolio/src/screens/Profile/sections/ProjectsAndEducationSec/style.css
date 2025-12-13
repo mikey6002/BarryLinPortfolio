@@ -120,29 +120,7 @@
   width: 260px;
 }
 
-.background .project-tech-desc {
-  color: #666666;
-  font-family: "Inter", Helvetica;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 25.6px;
-  margin-top: -1.00px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
-}
 
-.background .project-tech-desc {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  left: 0;
-  padding: 0px 0px 0.56px;
-  position: absolute;
-  top: 50px;
-  width: 260px;
-}
 
 .background .text-wrapper-5 {
   color: #666666;
@@ -268,7 +246,7 @@
   width: 320px;
 }
 
-.background .text-wrapper-7 {
+.background .project-text {
   align-self: stretch;
   color: #666666;
   font-family: "Inter", Helvetica;
@@ -342,7 +320,7 @@
   width: 100%;
 }
 
-.background .canvas-quest-is-a-wrapper {
+.background .project-box {
   align-items: flex-start;
   align-self: stretch;
   display: flex;

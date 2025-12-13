@@ -30,15 +30,16 @@ export const Background = () => {
                 </div>
               </div>
             
-              <div className="project-details">
-                <div className="project-subtitle">
-                  <p className="project-tech-desc">
-                    Built with Streamlit and Python
+              <div className="project-description">
+                <div className="developed-using-wrapper">
+                  <p className="project-text">
+                    Developed using Python,Streamlit <br />
+                    <br />
                   </p>
                 </div>
 
-                <div className="project-tech-desc">
-                  <p className="text-wrapper-5">
+                <div className="project-box">
+                  <p className="project-text">
                     A web application designed to <br />
                     assist in the early detection of <br />
                     brain tumors by classifying MRI <br />
@@ -106,7 +107,7 @@ export const Background = () => {
 
               <div className="project-description">
                 <div className="project-description">
-                  <p className="text-wrapper-7">
+                  <p className="project-text">
                     Developed a Unix-like shell in C, <br />
                     emulating functionalities of <br />
                     standard shells like &#39;tcsh&#39;. The <br />
@@ -153,15 +154,15 @@ export const Background = () => {
 
               <div className="project-description">
                 <div className="developed-using-wrapper">
-                  <p className="text-wrapper-7">
+                  <p className="project-text">
                     Developed using JavaScript, <br />
                     HTML, CSS, Python, Flask, and <br />
                     SQL.
                   </p>
                 </div>
 
-                <div className="canvas-quest-is-a-wrapper">
-                  <p className="text-wrapper-7">
+                <div className="project-box">
+                  <p className="project-text">
                     Canvas Quest is a web <br />
                     application that gamifies the <br />
                     academic experience by <br />
@@ -222,19 +223,19 @@ export const Background = () => {
             <div className="container-15">
               <div className="project-block">
                 <div className="project-block">
-                  <div className="project-title">
-                    Personal Finance <br />
-                    Tracker
-                  </div>
+                  <div className="project-title">Personal Finance Tracker</div>
                 </div>
               </div>
 
-              <div className="project-details">
-                <div className="project-subtitle">
-                  <p className="project-tech-desc">Built with Python and KivyMd</p>
+              <div className="project-description">
+                <div className="developed-using-wrapper">
+                  <p className="project-text">
+                    Developed with Python and Kivymd <br />
+                    <br />
+                  </p>
                 </div>
 
-                <div className="project-tech-desc">
+                <div className="project-box">
                   <p className="designed-to-help">
                     Designed to help users manage <br />
                     their finance effectively by having <br />a snapshot of
@@ -276,24 +277,20 @@ export const Background = () => {
             <div className="Crime-project-container">
               <div className="project-block">
                 <div className="project-block">
-                  <p className="project-title">
-                    Los Angeles&nbsp;&nbsp;Crime <br />
-                    Analysis Using <br />
-                    Machine Learning
-                  </p>
+                  <div className="project-title">Los Angeles Crime <br />Prediction</div>
                 </div>
               </div>
 
-              <div className="container-17">
-                <div className="built-with-python-wrapper">
-                  <p className="built-with-python">
+              <div className="project-description">
+                <div className="developed-using-wrapper">
+                  <p className="project-text">
                     Built with Python, Pandas, Scikit <br />
                     learn
                   </p>
                 </div>
 
-                <div className="this-project-wrapper">
-                  <p className="text-wrapper-5">
+                <div className="project-box">
+                  <p className="project-text">
                     This project explores the use of <br />
                     machine learning to predict crime <br />
                     patterns and identify hotspot <br />
@@ -348,9 +345,8 @@ export const Background = () => {
                 </div>
               </div>
 
-              <div className="project-description">
-                <div className="project-description">
-                  <p className="text-wrapper-7">
+                <div className="project-box">
+                  <p className="project-text">
                     Figma prototype to reimagine the <br />
                     digital experience for City View <br />
                     Pizza, enhancing online ordering, <br />
@@ -362,7 +358,7 @@ export const Background = () => {
                     brand’s identity
                   </p>
                 </div>
-              </div>
+             
 
               <a
                 className="city-view-learn-m"
