@@ -14,8 +14,9 @@ import Scrum from "../../../../assets/Scrum.png";
 export const Background = () => {
   return (
     <div className="background">
-      <div className="heading-wrapper">
-        <div className="projects-title">Projects</div>
+      <div className="project-button-wrapper"></div>
+      <div className="heading-3">
+        <div className="text-wrapper-9" id = "projects">Projects</div>
       </div>
       <div className="projects-grid">
         <div className="projects-list">
@@ -380,12 +381,7 @@ export const Background = () => {
           </div>
         </div>
 
-        <div className="project-block" id="projects">
-          <div className="project-block">
-          </div>
-        </div>
       </div>
-
       <div className="project-button-wrapper">
         <div className="heading-3">
           <div className="text-wrapper-9" id = "Education">Education and Certifications</div>

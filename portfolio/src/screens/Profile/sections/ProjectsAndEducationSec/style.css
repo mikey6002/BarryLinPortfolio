@@ -20,7 +20,7 @@
   flex: 0 0 auto;
   flex-direction: column;
   justify-content: center;
-  padding: 159px 40px;
+  padding: 15px 40px;
   position: relative;
   width: 1196px;
 }
@@ -611,6 +611,8 @@
   white-space: nowrap;
   width: fit-content;
 }
+
+
 
 .background .education-list {
   align-items: center;
