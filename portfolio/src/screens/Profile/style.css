@@ -103,6 +103,15 @@
     margin-top: 60px;
     margin-bottom: 60px;
   }
+.project-card.project-card--canvas,  .project-card--canvas {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 400px;
+  }
+
+
 }
 
 @media (max-width: 968px) {

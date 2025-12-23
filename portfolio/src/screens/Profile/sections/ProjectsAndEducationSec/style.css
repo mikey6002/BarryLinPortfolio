@@ -202,7 +202,7 @@
   overflow: hidden;
   padding: 10.61px 15px 11.59px;
   position: absolute;
-  top: 437px;
+  top: 495px;
 }
 
 .background .project-card {
@@ -368,7 +368,7 @@
   overflow: hidden;
   padding: 10.61px 15px 11.59px;
   position: absolute;
-  top: 430px;
+  top: 495px;
 }
 
 .background .project-card--finance {
@@ -733,5 +733,34 @@
     flex-direction: column;
     align-items: center;
   }
+  
+  /* adjust project media sizes */
+  .background .project-media,
+  .background .element-efd{
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+    width: 320px;
+  }
+
+  .background .finance{
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+    width: 320px;
+  }
+  .background .cvp-logo {
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+    width: 280px;
+  }
+  .project-image {
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+    width: 320px;
+  }
+
   
 }

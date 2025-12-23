@@ -329,7 +329,7 @@ export const Background = () => {
 
           <div className="project-card project-card--cityview">
             <div className="project-media">
-              <div className="cvp-logo-wrapper">
+              <div className="element-wrapper">
                 <img
                   className="cvp-logo"
                   alt="Cvp logo"
