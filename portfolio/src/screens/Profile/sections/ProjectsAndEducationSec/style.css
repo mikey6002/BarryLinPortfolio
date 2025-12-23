@@ -703,7 +703,7 @@
     gap: 30px;
     height: auto;
   }
- /* Make all project cards position relative */
+  /* all project cards position relative and add spacing for mobile */
   .background .project-card,
   .background .project-card--braizen,
   .background .project-card--powershell,
@@ -716,6 +716,7 @@
     top: 0;
     width: 100%;
     max-width: 400px;
+    margin-bottom: 90px;
   }
     /* Adjust button positions to be relative */
   .background .braizen-live-demo,
