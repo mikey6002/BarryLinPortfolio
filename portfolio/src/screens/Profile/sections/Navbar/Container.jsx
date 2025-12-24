@@ -8,13 +8,7 @@ const scrollToSection = (id) => {
   if (element) element.scrollIntoView({ behavior: "smooth" });
 };
 
-const navItems = [
-  { text: "About me", id: "about-me" },
-  { text: "Skills", id: "skills" },
-  { text: "Projects", id: "projects" },
-  { text: "Education", id: "education" },
-  { text: "Get in touch", id: "contact" },
-];
+import { navItems } from "../../../../config/navItems";
 
 export const Container = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
