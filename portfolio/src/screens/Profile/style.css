@@ -22,7 +22,7 @@
   position: relative;
   gap: 20px;
   align-items: center;
-  top: -80px;
+  top: -40px;
   left: 115px;
 }
 
@@ -87,7 +87,7 @@
 
 
 /* Mobile Responsive Styles */
-@media (max-width: 1080px) {
+@media (max-width: 720px) {
   .content-container {
     max-width: 100%;
     padding: 0 20px;
@@ -114,7 +114,7 @@
 
 }
 
-@media (max-width: 968px) {
+@media (max-width: 720px) {
   .page-wrapper {
     padding: 40px 15px;
   }
