@@ -70,15 +70,4 @@ export const projects = [
       "Reimagined the digital experience for City View Pizza to enhance online ordering, menu navigation, and customer engagement.",
     learnMore: { url: "https://www.figma.com/design/7W8SL2JKKzEuoJJEgwR71n/Design-Workshop", className: "city-view-learn-m" },
   },
-    {
-    id: "city-view",
-    title: "City View Pizza Prototype",
-    cardModifier: "project-card--cityview",
-    image: cityviewImg,
-    imageClassName: "cvp-logo",
-    developedUsing: "Figma prototype",
-    description:
-      "Reimagined the digital experience for City View Pizza to enhance online ordering, menu navigation, and customer engagement.",
-    learnMore: { url: "https://www.figma.com/design/7W8SL2JKKzEuoJJEgwR71n/Design-Workshop", className: "city-view-learn-m" },
-  },
 ];
