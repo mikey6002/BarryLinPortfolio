@@ -5,7 +5,6 @@ export const Component = ({
   className,
   text,
   textClassName,
-  variant,
   ...props
 }) => (
   <div
@@ -15,6 +14,5 @@ export const Component = ({
     {...props}
   >
     <span className={textClassName}>{text}</span>
-    {}
   </div>
 );

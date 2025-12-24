@@ -7,15 +7,15 @@ export const DivWrapper = () => {
     <div className="div-wrapper">
       <div className="contact-section">
         <div className="contacts-heading">
-          <p className="let-s-get-to-know" id = "lets get to know">Let's get to know each other.</p>
+          <p className="let-s-get-to-know" id="contact">Let's get to know each other.</p>
         </div>
       </div>
     
       <div className="contact-section">
         <div className="contacts-heading">
-           <p className="let-s-get-to-know" id = "Get in touch">Get in Touch.</p>
+           <p className="let-s-get-to-know">Get in Touch.</p>
         </div>
-      </div>
+      </div> 
     </div>
   );
 };

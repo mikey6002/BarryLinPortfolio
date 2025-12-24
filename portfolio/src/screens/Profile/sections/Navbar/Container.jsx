@@ -9,12 +9,11 @@ const scrollToSection = (id) => {
 };
 
 const navItems = [
-  { text: "About me", id: "About me" },
-  { text: "Skills", id: "Skills" },
+  { text: "About me", id: "about-me" },
+  { text: "Skills", id: "skills" },
   { text: "Projects", id: "projects" },
-  { text: "Education", id: "Education" },
-  { text: "Get in touch", id: "lets get to know" },
-
+  { text: "Education", id: "education" },
+  { text: "Get in touch", id: "contact" },
 ];
 
 export const Container = () => {

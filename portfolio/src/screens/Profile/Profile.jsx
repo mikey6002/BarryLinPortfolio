@@ -50,7 +50,7 @@ export const Profile = () => {
 
           {/* Skills Section */}
           <div className="skills-section">
-            <h2 id="Skills">My Skills</h2>
+            <h2 id="skills">My Skills</h2>
             <div className="skills-logos">
               <img src={scikitlearnLogo} alt="Scikit Learn" />
               <img src={htmllogo} alt="HTML" />

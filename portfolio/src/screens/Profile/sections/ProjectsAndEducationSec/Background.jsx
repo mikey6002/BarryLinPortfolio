@@ -384,7 +384,7 @@ export const Background = () => {
       </div>
       <div className="project-button-wrapper">
         <div className="heading-3">
-          <div className="text-wrapper-9" id = "Education">Education and Certifications</div>
+          <div className="text-wrapper-9" id="education">Education and Certifications</div>
         </div>
       </div>
 
