@@ -10,7 +10,7 @@
 }
 
 /* ===== Text + Resume Section ===== */
-.container-wrapper .container-2 {
+.container-wrapper .about-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -43,7 +43,7 @@
 }
 
 /* ===== Paragraph Containers ===== */
-.container-wrapper .container-3 {
+.container-wrapper .About_me_Section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -52,7 +52,7 @@
   position: relative;
 } 
 
-.container-wrapper .heading-2 {
+.container-wrapper .About_Headings {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -100,7 +100,7 @@
 }
 
 /* =====  Statement ===== */
-.container-wrapper .i-believe-that-the-wrapper {
+.container-wrapper .statement_wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -108,7 +108,7 @@
   position: relative;
 }
 
-.container-wrapper .i-believe-that-the {
+.container-wrapper .about-values-class {
   font-family: "Inter", Helvetica;
   font-size: 24px;
   font-weight: 500;
@@ -123,7 +123,7 @@
 /* ===== Resume Button Positioning ===== */
 .container-wrapper .resume-instance {
   position: absolute !important;
-  top: 810px !important;
+  top: 400px !important;
   left: 184px !important;
 }
 
@@ -155,7 +155,7 @@
   }
 }
 
-.container-wrapper .container-3, .mypic,.i-believe-that-the,
+.container-wrapper .About_me_Section, .mypic,.about-values-class,
 .container-wrapper .heading {
   animation: slideInLeft 3s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
@@ -164,6 +164,127 @@
   animation-delay: 0.5s;
 }
 
-.container-wrapper .container-3 {
+.container-wrapper .About_me_Section {
   animation-delay: 0.5s;
+}
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 1280px) {
+  .container-wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container-wrapper .about-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 20px;
+  }
+
+  .container-wrapper .heading {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .container-wrapper .About_me_Section,
+  .container-wrapper .statement_wrapper {
+    width: 100%;
+    max-width: 660px;
+  }
+}
+
+@media (max-width: 968px) {
+  .container-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-wrapper .text-wrapper {
+    font-size: 40px;
+    line-height: 48px;
+    white-space: normal;
+  }
+
+  .container-wrapper .p,
+  .container-wrapper .from-programming,
+  .container-wrapper .about-values-class {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .container-wrapper .resume-instance {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin-top: 20px;
+  }
+
+  .container-wrapper .mypic-wrapper {
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-wrapper .text-wrapper {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .container-wrapper .p,
+  .container-wrapper .from-programming,
+  .container-wrapper .about-values-class {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .container-wrapper .about-content {
+    gap: 15px;
+    padding: 20px 15px;
+  }
+
+  .container-wrapper .mypic-wrapper {
+    width: 280px;
+    height: 450px;
+  }
+
+  .container-wrapper .mypic {
+    width: 330px;
+    height: 420px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-wrapper {
+    padding: 15px;
+  }
+
+  .container-wrapper .text-wrapper {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .container-wrapper .p,
+  .container-wrapper .from-programming,
+  .container-wrapper .about-values-class {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .container-wrapper .mypic-wrapper {
+    width: 240px;
+    height: 360px;
+  }
+
+  .container-wrapper .mypic {
+    width: 280px;
+    height: 360px;
+    left: -20px;
+  }
+
+  .container-wrapper .container-2 {
+    padding: 15px 10px;
+  }
 }

@@ -5,22 +5,22 @@ import "./style.css";
 
 export const ContainerWrapper = () => {
   return (
-    <div className="container-wrapper">
-      <div className="container-2">
+    <div className="container-wrapper" id="about-me">
+      <div className="about-content">
         <div className="heading">
           <p className="text-wrapper">Hi, my name is Barry Lin</p>
         </div>
 
-        <div className="container-3">
-          <SectionText className="heading-2">
-            I’m a software engineer and IT enthusiast who thrives on
+        <div className="About_me_Section">
+          <SectionText className="About_Headings">
+            I’m an AV and software engineering enthusiast who thrives on
             problem-solving, programming, and building impactful solutions.
             My journey started with robotics, where I learned to design,
             program, and troubleshoot autonomous systems — an experience
             that cemented my passion for technology.
           </SectionText>
 
-          <SectionText className="heading-2">
+          <SectionText className="About_Headings">
             <span className="span">
               From programming precise motor movements in competitions to
               leading tech workshops as part of the{" "}
@@ -40,14 +40,14 @@ export const ContainerWrapper = () => {
             </span>
           </SectionText>
 
-          <SectionText className="heading-2">
+          <SectionText className="About_Headings">
             I’m always eager to learn, build, and contribute to innovative
             solutions that make a real-world impact.
           </SectionText>
         </div>
 
-        <div className="i-believe-that-the-wrapper">
-          <p className="i-believe-that-the">
+        <div className="statement_wrapper">
+          <p className="about-values-class">
             I believe that the success of a project is based on good
             collaboration and being kind.
           </p>

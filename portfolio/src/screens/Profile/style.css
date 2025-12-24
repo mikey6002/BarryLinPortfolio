@@ -23,7 +23,7 @@
   gap: 20px;
   align-items: center;
   top: -80px;
-  left: 145px
+  left: 115px;
 }
 
 /* base style */
@@ -57,6 +57,7 @@
   margin-top: 60px;
   margin-bottom: 60px;
   text-align: center;
+  position: relative;
 
 }
 
@@ -64,8 +65,9 @@
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 30px;
+  line-height: 60px;
   color: #111;
-  letter-spacing: -2px;
+  letter-spacing: -2.60px;
   font-family: "Inter", sans-serif;
   padding-bottom: 50px;
 }
@@ -82,3 +84,134 @@
   width: auto;
   object-fit: contain;
 }
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 1080px) {
+  .content-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .social-icons {
+    left: 0;
+    top: -20px;
+    justify-content: center;
+  }
+
+  .skills-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+.project-card.project-card--canvas,  .project-card--canvas {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 400px;
+  }
+
+
+}
+
+@media (max-width: 968px) {
+  .page-wrapper {
+    padding: 40px 15px;
+  }
+
+  .social-icons {
+    position: relative;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  .skills-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .skills-section h2 {
+    font-size: 36px;
+    letter-spacing: -1.5px;
+  }
+
+  .skills-logos {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-wrapper {
+    padding: 30px 10px;
+  }
+
+  .social-icons {
+    gap: 15px;
+  }
+
+  .github-icon,
+  .linkedin-icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .resume-icon {
+    height: 56px;
+    width: 56px;
+  }
+
+  .skills-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .skills-section h2 {
+    font-size: 32px;
+    padding-bottom: 30px;
+  }
+
+  .skills-logos {
+    gap: 20px;
+  }
+
+  .skills-logos img {
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-wrapper {
+    padding: 20px 5px;
+  }
+
+  .social-icons {
+    gap: 12px;
+  }
+
+  .github-icon,
+  .linkedin-icon {
+    height: 35px;
+    width: 35px;
+  }
+
+  .resume-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .skills-section h2 {
+    font-size: 28px;
+  }
+
+  .skills-logos {
+    gap: 15px;
+  }
+
+  .skills-logos img {
+    height: 50px;
+  }
+}
+

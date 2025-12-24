@@ -9,7 +9,7 @@
   width: 1920px;
 }
 
-.background-wrapper .background-2 {
+.background-wrapper .contact-wrapper {
   align-items: center;
   display: flex;
   flex: 1;
@@ -21,7 +21,7 @@
   position: relative;
 }
 
-.background-wrapper .container-22 {
+.background-wrapper .contacts-heading {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -29,7 +29,7 @@
   position: relative;
 }
 
-.background-wrapper .div-wrapper-3 {
+.background-wrapper .label-container {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -39,7 +39,7 @@
   width: 100%;
 }
 
-.background-wrapper .text-wrapper-10 {
+.background-wrapper .contacts_title {
   color: #001122;
   font-family: "Inter", Helvetica;
   font-size: 50px;
@@ -74,7 +74,7 @@
   width: 100%;
 }
 
-.background-wrapper .text-wrapper-11 {
+.background-wrapper .input-field {
   color: #888888;
   font-family: "Inter", Helvetica;
   font-size: 12px;
@@ -114,7 +114,7 @@
   width: 100%;
 }
 
-.background-wrapper .container-23 {
+.background-wrapper .form-row {
   align-items: flex-start;
   display: flex;
   flex: 1;
@@ -157,7 +157,7 @@
   width: 100%;
 }
 
-.background-wrapper .container-24 {
+.background-wrapper .form-control {
   align-self: stretch;
   background: none;
   border: none;
@@ -201,7 +201,7 @@
   width: 0;
 }
 
-.background-wrapper .container-25 {
+.background-wrapper .input-helper {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
@@ -255,7 +255,7 @@
   width: 100%;
 }
 
-.background-wrapper .container-26 {
+.background-wrapper .button-content {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -277,4 +277,85 @@
   position: relative;
   white-space: nowrap;
   width: fit-content;
+}
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 1280px) {
+  .background-wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .background-wrapper .contact-wrapper {
+    padding: 80px 20px;
+  }
+
+  .background-wrapper .form {
+    width: 100%;
+    max-width: 630px;
+    padding: 19px 15px;
+  }
+
+  .background-wrapper .border {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .background-wrapper .contact-wrapper {
+    padding: 60px 15px;
+  }
+
+  .background-wrapper .contacts_title {
+    font-size: 36px;
+    line-height: 44px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .background-wrapper .form {
+    width: 100%;
+    padding: 15px 10px;
+    gap: 35px;
+  }
+
+  .background-wrapper .label,
+  .background-wrapper .label-2 {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .background-wrapper .contact-wrapper {
+    padding: 40px 10px;
+  }
+
+  .background-wrapper .contacts_title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .background-wrapper .form {
+    gap: 30px;
+  }
+
+  .background-wrapper .input-field {
+    font-size: 11px;
+  }
+
+  .background-wrapper .input,
+  .background-wrapper .form-control {
+    font-size: 13px;
+    padding: 11px 10px;
+  }
+
+  .background-wrapper .overlay {
+    height: 38px;
+  }
+
+  .background-wrapper .border {
+    height: 38px;
+  }
 }

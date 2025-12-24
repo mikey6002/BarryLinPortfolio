@@ -13,26 +13,26 @@
   width: 1920px;
 }
 
-.background .div-4 {
+.background .projects-grid {
   align-items: center;
   background-color: #ffffff;
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
   justify-content: center;
-  padding: 159px 40px;
+  padding: 15px 40px;
   position: relative;
   width: 1196px;
 }
 
-.background .container-4 {
+.background .projects-list {
   height: 1666px;
   max-width: 1196px;
   position: relative;
   width: 1116px;
 }
 
-.background .background-shadow {
+.background .project-card--braizen {
   align-items: center;
   background-color: #ffffff;
   border-radius: 20px;
@@ -48,7 +48,7 @@
   width: 320px;
 }
 
-.background .container-5 {
+.background .project-media {
   border-radius: 20px 20px 0px 0px;
   height: 240px;
   overflow: hidden;
@@ -56,7 +56,14 @@
   width: 320px;
 }
 
-.background .container-6 {
+.background .project-image {
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 20px 20px 0px 0px;
+  position: relative;
+}
+
+.background .project-card--braizen .project-image {
   background-image: url("/src/assets/braizen.png");
   background-position: 50% 50%;
   background-size: cover;
@@ -68,7 +75,7 @@
   width: 347px;
 }
 
-.background .container-7 {
+.background .project-content {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -80,7 +87,7 @@
   width: 320px;
 }
 
-.background .div-5 {
+.background .project-block {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -90,7 +97,7 @@
   width: 100%;
 }
 
-.background .text-wrapper-3 {
+.background .project-title {
   align-self: stretch;
   color: #333333;
   font-family: "Inter", Helvetica;
@@ -102,14 +109,14 @@
   position: relative;
 }
 
-.background .container-8 {
+.background .project-details {
   align-self: stretch;
   height: 332.72px;
   position: relative;
   width: 100%;
 }
 
-.background .container-9 {
+.background .project-subtitle {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -120,29 +127,6 @@
   width: 260px;
 }
 
-.background .text-wrapper-4 {
-  color: #666666;
-  font-family: "Inter", Helvetica;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 25.6px;
-  margin-top: -1.00px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.background .container-10 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  left: 0;
-  padding: 0px 0px 0.56px;
-  position: absolute;
-  top: 50px;
-  width: 260px;
-}
 
 .background .text-wrapper-5 {
   color: #666666;
@@ -157,7 +141,7 @@
   width: fit-content;
 }
 
-.background .container-wrapper-4 {
+.background .braizen-details {
   align-items: center;
   background-color: #222222;
   border-radius: 8px;
@@ -171,7 +155,7 @@
   position: relative;
 }
 
-.background .container-11 {
+.background .project-button-wrapper {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -180,7 +164,7 @@
 }
 
 
-.background .container-12 {
+.background .project-text-wrapper {
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -218,10 +202,10 @@
   overflow: hidden;
   padding: 10.61px 15px 11.59px;
   position: absolute;
-  top: 437px;
+  top: 495px;
 }
 
-.background .background-shadow-2 {
+.background .project-card {
   align-items: center;
   background-color: #ffffff;
   border-radius: 20px;
@@ -231,11 +215,14 @@
   flex-direction: column;
   gap: 2.27e-13px;
   justify-content: center;
-  left: 398px;
   overflow: hidden;
   position: absolute;
-  top: 8px;
   width: 320px;
+}
+
+.background .project-card--powershell {
+  left: 398px;
+  top: 8px;
 }
 
 .background .element-wrapper {
@@ -256,7 +243,7 @@
   width: 320px;
 }
 
-.background .container-13 {
+.background .power-shell-wrapper {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -268,7 +255,7 @@
   width: 320px;
 }
 
-.background .text-wrapper-7 {
+.background .project-text {
   align-self: stretch;
   color: #666666;
   font-family: "Inter", Helvetica;
@@ -294,7 +281,7 @@
   position: relative;
 }
 
-.background .background-shadow-3 {
+.background .project-card--canvas {
   align-items: center;
   background-color: #ffffff;
   border-radius: 20px;
@@ -319,7 +306,7 @@
   width: 259px;
 }
 
-.background .container-14 {
+.background .project-content {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -342,7 +329,7 @@
   width: 100%;
 }
 
-.background .canvas-quest-is-a-wrapper {
+.background .project-box {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -381,10 +368,10 @@
   overflow: hidden;
   padding: 10.61px 15px 11.59px;
   position: absolute;
-  top: 430px;
+  top: 495px;
 }
 
-.background .background-shadow-4 {
+.background .project-card--finance {
   align-items: center;
   background-color: #ffffff;
   border-radius: 20px;
@@ -419,7 +406,7 @@
   width: 100%;
 }
 
-.background .container-15 {
+.background .project-content {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -444,7 +431,7 @@
   width: fit-content;
 }
 
-.background .background-shadow-5 {
+.background .project-card--crime {
   align-items: center;
   background-color: #ffffff;
   border-radius: 20px;
@@ -460,7 +447,7 @@
   width: 320px;
 }
 
-.background .container-16 {
+.background .project-card--crime .project-image {
   background-image: url("/src/assets/crimescene.png");
   background-position: 50% 50%;
   background-size: cover;
@@ -470,7 +457,7 @@
   top: 24px;
 }
 
-.background .container-17 {
+.background .project-details {
   align-self: stretch;
   height: 383.91px;
   position: relative;
@@ -509,7 +496,7 @@
   width: 260px;
 }
 
-.background .background-shadow-6 {
+.background .project-card--cityview {
   align-items: center;
   background-color: #ffffff;
   border-radius: 20px;
@@ -544,7 +531,7 @@
   width: 300px;
 }
 
-.background .container-18 {
+.background .project-content {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -570,27 +557,35 @@
   position: relative;
 }
 
+
 .background .heading-wrapper {
-  align-items: flex-start;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  left: 500px;
-  max-width: 600px;
   position: absolute;
   top: 18px;
-  width: 197px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  max-width: 600px;
+  padding: 0 10px; 
 }
 
-.background .text-wrapper-8 {
-  align-self: stretch;
+.background .projects-title {
   color: #111111;
   font-family: "Inter", Helvetica;
   font-size: 50px;
   font-weight: 700;
   letter-spacing: -2.10px;
   line-height: 60px;
-  margin-top: -1.00px;
+  margin: 0;
   position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  white-space: nowrap;
 }
 
 .background .heading-3 {
@@ -617,7 +612,9 @@
   width: fit-content;
 }
 
-.background .container-19 {
+
+
+.background .education-list {
   align-items: center;
   display: flex;
   flex: 0 0 auto;
@@ -646,4 +643,125 @@
   height: 260px;
   position: relative;
   width: 346px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 1280px) {
+  .background {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 60px 20px;
+  }
+  .background .projects-grid {
+    width: 100%;
+    max-width: 100%;
+    padding: 80px 20px;
+  }
+    .background .projects-list {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+    .background .heading-wrapper {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+    .background .projects-title {
+    font-size: 40px;
+    line-height: 48px;
+    position: relative;
+  }
+
+  .background .education-list {
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .background .preview-lg,
+  .background .img,
+  .background .screenshot {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .background .projects-grid {
+    padding: 60px 20px;
+  }
+
+  .background .project-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: auto;
+  }
+  /* all project cards position relative and add spacing for mobile */
+  .background .project-card,
+  .background .project-card--braizen,
+  .background .project-card--powershell,
+  .background .project-card--canvas,
+  .background .project-card--finance,
+  .background .project-card--crime,
+  .background .project-card--cityview {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 90px;
+  }
+    /* Adjust button positions to be relative */
+  .background .braizen-live-demo,
+  .background .canvas-live-demo {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-top: 10px;
+  }
+    .background .text-wrapper-9 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+    .background .education-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* adjust project media sizes */
+  .background .project-media,
+  .background .element-efd{
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+    width: 320px;
+  }
+
+  .background .finance{
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+    width: 320px;
+  }
+  .background .cvp-logo {
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+    width: 280px;
+  }
+  .project-image {
+    height: 250px;
+    object-fit: cover;
+    position: relative;
+    width: 320px;
+  }
+
+  
 }

@@ -80,26 +80,26 @@ export const BackgroundWrapper = () => {
 
   return (
     <div className="background-wrapper">
-      <div className="background-2">
-        <div className="container-22">
-          <div className="div-wrapper-3">
-            <div className="text-wrapper-10">Contact</div>
+      <div className="contact-wrapper">
+        <div className="contacts-heading">
+          <div className="label-container">
+            <div className="contacts_title">Contact</div>
           </div>
         </div>
 
         <form className="form" onSubmit={handleSubmit}>
           {/* Full Name Field */}
           <div className="label">
-            <div className="container-22">
-              <div className="div-wrapper-3">
-                <label className="text-wrapper-11" htmlFor="fullName">
+            <div className="contacts-heading">
+              <div className="label-container">
+                <label className="input-field" htmlFor="fullName">
                   Full Name
                 </label>
               </div>
             </div>
             <div className="overlay">
               <input
-                className="input container-24"
+                className="input form-control"
                 id="fullName"
                 name="fullName"
                 type="text"
@@ -115,16 +115,16 @@ export const BackgroundWrapper = () => {
 
           {/* Email Field */}
           <div className="label-2">
-            <div className="container-22">
-              <div className="div-wrapper-3">
-                <label className="text-wrapper-11" htmlFor="email">
+            <div className="contacts-heading">
+              <div className="label-container">
+                <label className="input-field" htmlFor="email">
                   Email
                 </label>
               </div>
             </div>
             <div className="overlay">
               <input
-                className="input container-24"
+                className="input form-control"
                 id="email"
                 name="email"
                 type="email"
@@ -140,16 +140,16 @@ export const BackgroundWrapper = () => {
 
           {/* Message Field */}
           <div className="label-2">
-            <div className="container-22">
-              <div className="div-wrapper-3">
-                <label className="text-wrapper-11" htmlFor="message">
+            <div className="contacts-heading">
+              <div className="label-container">
+                <label className="input-field" htmlFor="message">
                   Message
                 </label>
               </div>
             </div>
             <div className="textarea-wrapper">
               <textarea
-                className="textarea container-24"
+                className="textarea form-control"
                 id="message"
                 name="message"
                 placeholder="Your message..."
@@ -162,8 +162,8 @@ export const BackgroundWrapper = () => {
           {/* Submit Button */}
           <div className="button-wrapper">
             <button className="button" type="submit">
-              <div className="container-22">
-                <div className="container-26">
+              <div className="contacts-heading">
+                <div className="button-content">
                   <div className="text-wrapper-14">Submit</div>
                 </div>
               </div>
