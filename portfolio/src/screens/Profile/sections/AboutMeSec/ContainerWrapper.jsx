@@ -13,7 +13,7 @@ export const ContainerWrapper = () => {
 
         <div className="About_me_Section">
           <SectionText className="About_Headings">
-            I’m a AV engineer and software engineering enthusiast who thrives on
+            I’m an AV and software engineering enthusiast who thrives on
             problem-solving, programming, and building impactful solutions.
             My journey started with robotics, where I learned to design,
             program, and troubleshoot autonomous systems — an experience
